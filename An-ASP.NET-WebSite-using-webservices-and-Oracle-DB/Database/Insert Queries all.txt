@@ -1,0 +1,110 @@
+set line 1000;
+
+
+
+
+---------locations------
+insert into locations values (1,'West Delhi');
+insert into locations values (2,'South Delhi');
+insert into locations values (3,'North Delhi');
+insert into locations values (4,'Gurgaon');
+insert into locations values (5,'Noida');
+insert into locations values (6,'Faridabad');
+insert into locations values (7,'East Delhi');
+insert into locations values (8,'Ghaziabad');
+
+
+
+------------categories-----
+insert into CATEGORIES values (1,'Anaemia Test');
+insert into CATEGORIES values (2,'Complete Blood Count');
+insert into CATEGORIES values (3,'CT Scan');
+insert into CATEGORIES values (4,'Fever Investigation');
+insert into CATEGORIES values (5,'HBA1C');
+insert into CATEGORIES values (6,'Kidney Function Test');
+insert into CATEGORIES values (7,'Lipid Profile');
+insert into CATEGORIES values (8,'Liver Function Test');
+insert into CATEGORIES values (9,'MRI Scan');
+insert into CATEGORIES values (10,'Pulmonary Function Test');
+insert into CATEGORIES values (11,'Sexually Transmitted Disease Test');
+insert into CATEGORIES values (12,'Thyroid Profile');
+insert into CATEGORIES values (13,'Thyroid Stimulating Hormones');
+insert into CATEGORIES values (14,'Urine Routine Test');
+insert into CATEGORIES values (15,'Vitamin Test');
+insert into CATEGORIES values (16,'Others');
+
+//'Others' is for other remaining categories
+
+
+
+
+--------------------USERS------------------
+INSERT INTO USERS VALUES(auto_in.nextval,'ADMIN','USERNAME1','PASSWORD1','EMAIL1','9801234561','PHOTO1');
+INSERT INTO USERS VALUES(auto_in.nextval,'USER2','USERNAME2','PASSWORD2','EMAIL2','9801234562','PHOTO2');
+INSERT INTO USERS VALUES(auto_in.nextval,'USER3','USERNAME3','PASSWORD3','EMAIL3','9801234563','PHOTO3');
+INSERT INTO USERS VALUES(auto_in.nextval,'USER4','USERNAME4','PASSWORD4','EMAIL4','9801234564','PHOTO4');
+
+
+
+
+
+
+
+
+-------------------LABS-----------------------------------
+insert into LABS values (1,'Arch Pathology');
+insert into LABS values (2,'Artemis Hospital');
+insert into LABS values (3,'Diagno Labs');
+insert into LABS values (4,'Indraparastha Apollo Hospitals');
+insert into LABS values (5,'Janta X-Ray Clinical Lab');
+insert into LABS values (6,'Medanta');
+insert into LABS values (7,'Metro Heart Institute');
+insert into LABS values (8,'Metropolis Healthcare');
+insert into LABS values (9,'Quest Diagnostics');
+insert into LABS values (10,'Thyrocare');
+
+
+
+
+
+
+
+
+-----------------RISK_AREAS--------------------
+insert into RISK_AREAS values (1,'Blood');
+insert into RISK_AREAS values (2,'Bones');
+insert into RISK_AREAS values (3,'Brain');
+insert into RISK_AREAS values (4,'Heart');
+insert into RISK_AREAS values (5,'Head');
+insert into RISK_AREAS values (6,'Infections');
+insert into RISK_AREAS values (7,'Lungs');
+insert into RISK_AREAS values (8,'Kidney');
+insert into RISK_AREAS values (9,'Skin');
+insert into RISK_AREAS values (10,'Spleen');
+insert into RISK_AREAS values (11,'Thyroid');
+insert into RISK_AREAS values (12,'Whole Body');
+insert into RISK_AREAS values (13,'Others');
+
+
+//'Others' is for remaining risk areas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+truncate table activity;
+
+select count(*) from my_table;

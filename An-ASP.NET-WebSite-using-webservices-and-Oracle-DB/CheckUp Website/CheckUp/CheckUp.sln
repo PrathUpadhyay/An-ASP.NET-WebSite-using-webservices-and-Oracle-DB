@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckUp", "CheckUp\CheckUp.csproj", "{7704B5C4-4951-4A4E-99F7-9028A2A93D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALC4NET", "DALC4NET\DALC4NET.csproj", "{E5AD1678-CF38-446A-A978-17254BD099DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7704B5C4-4951-4A4E-99F7-9028A2A93D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7704B5C4-4951-4A4E-99F7-9028A2A93D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7704B5C4-4951-4A4E-99F7-9028A2A93D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7704B5C4-4951-4A4E-99F7-9028A2A93D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AD1678-CF38-446A-A978-17254BD099DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AD1678-CF38-446A-A978-17254BD099DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AD1678-CF38-446A-A978-17254BD099DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AD1678-CF38-446A-A978-17254BD099DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

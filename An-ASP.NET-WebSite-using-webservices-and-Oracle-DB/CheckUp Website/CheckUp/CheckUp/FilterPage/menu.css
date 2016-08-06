@@ -1,0 +1,169 @@
+ @font-face {
+
+font-family:"zurich Cn BT";
+
+ src: url("../../front/font/zurich-cn-bt.ttf");
+
+}
+
+ 
+
+/* Icons */
+
+[class^="sol_icon_"] {width:80px;height:80px;background:url(../icons/solutions_icons.png) 0 0 no-repeat;display:inline-block;vertical-align:middle;zoom:1;*display:inline;}
+
+.sol_icon_health-coordination {background-position:0 0;}
+
+.sol_icon_health-coordination:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_health-coordination, .active .sol_icon_health-coordination {background-position:-80px 0;}
+
+.sol_icon_wellness-empowerment {background-position:0 -80px;}
+
+.sol_icon_wellness-empowerment:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_wellness-empowerment, .active .sol_icon_wellness-empowerment {background-position:-80px -80px;}
+
+.sol_icon_housing-and-peer-development {background-position:0 -160px;}
+
+.sol_icon_housing-and-peer-development:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_housing-and-peer-development, .active .sol_icon_housing-and-peer-development {background-position:-80px -160px;}
+
+.sol_icon_prevention {background-position:0 -240px;}
+
+.sol_icon_prevention:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_prevention, .active .sol_icon_prevention {background-position:-80px -240px;}
+
+.sol_icon_syringe-access {background-position:0 -320px;}
+
+.sol_icon_syringe-access:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_syringe-access, .active .sol_icon_syringe-access {background-position:-80px -320px;}
+
+.sol_icon_health-center {background-position:0 -400px;}
+
+.sol_icon_health-center:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_health-center, .active .sol_icon_health-center {background-position:-80px -400px;}
+
+.sol_icon_drop-in-center {background-position:0 -480px;}
+
+.sol_icon_drop-in-center:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_drop-in-center, .active .sol_icon_drop-in-center {background-position:-80px -480px;}
+
+.sol_icon_food-and-nutrition {background-position:0 -560px;}
+
+.sol_icon_food-and-nutrition:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_food-and-nutrition, .active .sol_icon_food-and-nutrition {background-position:-80px -560px;}
+
+.sol_icon_legal-services {background-position:0 -640px;}
+
+.sol_icon_legal-services:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_legal-services, .active .sol_icon_legal-services {background-position:-80px -640px;}
+
+.sol_icon_advocacy-and-community-relations {background-position:0 -720px;}
+
+.sol_icon_advocacy-and-community-relations:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_advocacy-and-community-relations, .active .sol_icon_advocacy-and-community-relations {background-position:-80px -720px;}
+
+.sol_icon_social-enterprise {background-position:0 -800px;}
+
+.sol_icon_social-enterprise:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_social-enterprise, .active .sol_icon_social-enterprise {background-position:-80px -800px;}
+
+.sol_icon_evers-pharmacy {background-position:0 -880px;}
+
+.sol_icon_evers-pharmacy:hover, .header nav > ul > li > ul > li > ul > li:hover .sol_icon_evers-pharmacy, .active .sol_icon_evers-pharmacy {background-position:-80px -880px;}
+
+	/* Icons big */
+
+[class^="sol_icon_big_"] {width:105px;height:105px;background-image:url(../icons/solutions_icons_big.html);}
+
+.sol_icon_big_health-coordination {background-position:0 0;}
+
+.sol_icon_big_health-coordination:hover, .solution_list li:hover .sol_icon_big_health-coordination {background-position:-105px 0;}
+
+.sol_icon_big_wellness-empowerment {background-position:0 -105px;}
+
+.sol_icon_big_wellness-empowerment:hover, .solution_list li:hover .sol_icon_big_wellness-empowerment {background-position:-105px -105px;}
+
+.sol_icon_big_housing-and-peer-development {background-position:0 -210px;}
+
+.sol_icon_big_housing-and-peer-development:hover, .solution_list li:hover .sol_icon_big_housing-and-peer-development {background-position:-105px -210px;}
+
+.sol_icon_big_prevention {background-position:0 -315px;}
+
+.sol_icon_big_prevention:hover, .solution_list li:hover .sol_icon_big_prevention {background-position:-105px -315px;}
+
+.sol_icon_big_syringe-access {background-position:0 -420px;}
+
+.sol_icon_big_syringe-access:hover, .solution_list li:hover .sol_icon_big_syringe-access {background-position:-105px -420px;}
+
+.sol_icon_big_health-center {background-position:0 -525px;}
+
+.sol_icon_big_health-center:hover, .solution_list li:hover .sol_icon_big_health-center {background-position:-105px -525px;}
+
+.sol_icon_big_drop-in-center {background-position:0 -630px;}
+
+.sol_icon_big_drop-in-center:hover, .solution_list li:hover .sol_icon_big_drop-in-center {background-position:-105px -630px;}
+
+.sol_icon_big_food-and-nutrition {background-position:0 -735px;}
+
+.sol_icon_big_food-and-nutrition:hover, .solution_list li:hover .sol_icon_big_food-and-nutrition {background-position:-105px -735px;}
+
+.sol_icon_big_legal-services {background-position:0 -840px;}
+
+.sol_icon_big_legal-services:hover, .solution_list li:hover .sol_icon_big_legal-services {background-position:-105px -840px;}
+
+.sol_icon_big_advocacy-and-community-relations {background-position:0 -945px;}
+
+.sol_icon_big_advocacy-and-community-relations:hover, .solution_list li:hover .sol_icon_big_advocacy-and-community-relations {background-position:-105px -945px;}
+
+.sol_icon_big_social-enterprise {background-position:0 -1050px;}
+
+.sol_icon_big_social-enterprise:hover, .solution_list li:hover .sol_icon_big_social-enterprise {background-position:-105px -1050px;}
+
+.sol_icon_big_evers-pharmacy {background-position:0 -1155px;}
+
+.sol_icon_big_evers-pharmacy:hover, .solution_list li:hover .sol_icon_big_evers-pharmacy {background-position:-105px -1155px;}
+
+  
+
+/* Top menu */
+
+.menu_trigger {width:50px;height:41px;background:url(../icons/menu_trigger.html) no-repeat;top:30px;right:30px;position:absolute;display:none;cursor:pointer;}
+
+.header nav {float:left; position:relative;z-index:200; left:-13px;}
+
+
+
+.header nav > ul > li {float:left; position:relative; text-transform:uppercase;list-style:none !important; border-right: 1px solid #4C4C4C;}
+
+
+
+.header nav > ul > li > a, .header nav > ul > li > a:visited {font:11.4px Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none;color:#fff; padding:11px 15px; font-weight:bold; display:block; letter-spacing:1px; }
+
+
+
+.header nav > ul > li > a:hover, .header nav > ul > li:hover > a {color:#fff; background-color:#007ea9; background-repeat:no-repeat;}
+
+.header nav > ul > li:last-child {padding-right:0;}
+
+.header nav > ul > li:last-child a{background:none;}
+
+/* submenu */
+
+.header nav > ul > li > ul {display:none;position:absolute;top:100%;left:50%;margin-left:-90px;background:#fff;background:rgba(255,255,255,.97);box-shadow:rgba(0,0,0,.4) 0 2px 3px 0;min-width:180px;border-radius:0px;z-index:201;}
+
+.header nav > ul > li > ul:before {content:'';display:block; min-width:100%; height:13px; background:url(../icons/arrow_top_menu2.png) center 0 no-repeat; position:absolute;bottom:100%;left:0;}
+
+.header nav > ul > li > ul > li:first-child a {border-radius:6px 6px 0 0;}
+
+.header nav > ul > li > ul > li:last-child a {border-radius:0 0 6px 6px; }
+
+.header nav > ul > li > ul > li > a, .header nav > ul > li > ul > li > a:visited {font:11px Arial, Helvetica, sans-serif!important; font-weight:500;color:#666;display:block;padding:9px; text-decoration:none;}
+
+.header nav > ul > li > ul > li > a:hover {background:#007ea9;color:#fff;}
+
+.header nav > ul > li > ul > li:first-child a:hover {border-radius:6px 6px 0 0;}
+
+/* submenu solutions */
+
+ .header nav > ul > li:nth-child(2) > ul > li:last-child {border-right:none;}
+
+.header nav > ul > li > ul > li > ul > li div {  display: table; float: left; height: 80px; padding: 10px 0; position: relative; width: 280px; }
+
+.header nav > ul > li > ul > li > ul > li div span {position:absolute;top:10px;left:25px;}
+
+.header nav > ul > li > ul > li > ul > li a, .header nav > ul > li > ul > li > ul > li a:visited {display:table-cell;vertical-align:middle;font:14px 'zurich Cn BT', 'zurich Cn BT';font-weight:500;color:#666;padding:0 25px 0 135px;}
+
+.header nav > ul > li > ul > li > ul > li a:hover {color:#333;}
+
+
+
+.menu_body{ margin:auto; width:1000px;}

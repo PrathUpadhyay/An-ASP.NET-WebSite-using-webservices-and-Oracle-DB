@@ -1,0 +1,12 @@
+﻿.cont{
+	    position: relative;
+		    width: 85%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.centered-content {
+	margin: 0 auto;
+	display: table;
+}

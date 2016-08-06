@@ -1,0 +1,26 @@
+
+create sequence auto_in
+start with 1
+increment by 1
+minvalue 1
+maxvalue 9999999;
+
+create sequence order_in
+start with 1
+increment by 1
+minvalue 1
+maxvalue 9999999;
+
+
+create sequence fam_added_in
+start with 1
+increment by 1
+minvalue 1
+maxvalue 9999999;
+
+
+create sequence fam_pending_in
+start with 1
+increment by 1
+minvalue 1
+maxvalue 9999999;

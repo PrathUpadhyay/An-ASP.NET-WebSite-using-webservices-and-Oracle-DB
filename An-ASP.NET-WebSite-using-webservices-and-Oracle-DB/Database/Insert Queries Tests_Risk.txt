@@ -1,0 +1,51 @@
+
+-----------------------TEST_RISK-------------------
+
+insert into test_risk values (1,1,2);
+insert into test_risk values (2,2,2);
+insert into test_risk values (3,3,2);
+insert into test_risk values (4,4,2);
+insert into test_risk values (5,5,1);
+insert into test_risk values (6,6,1);
+insert into test_risk values (7,7,1);
+insert into test_risk values (8,8,1);
+insert into test_risk values (9,9,1);
+insert into test_risk values (10,10,3);
+insert into test_risk values (11,11,3);
+insert into test_risk values (12,12,4);
+insert into test_risk values (13,13,4);
+insert into test_risk values (14,14,4);
+insert into test_risk values (15,15,4);
+insert into test_risk values (16,16,5);
+insert into test_risk values (17,9,6);
+insert into test_risk values (18,17,6);
+insert into test_risk values (19,18,6);
+insert into test_risk values (20,18,1);
+insert into test_risk values (21,19,7);
+insert into test_risk values (22,19,1);
+insert into test_risk values (23,20,7);
+insert into test_risk values (23,20,6);
+insert into test_risk values (24,21,7);
+insert into test_risk values (25,22,8);
+insert into test_risk values (26,14,8);
+insert into test_risk values (27,23,8);
+insert into test_risk values (28,24,8);
+insert into test_risk values (29,25,9);
+insert into test_risk values (30,26,9);
+insert into test_risk values (31,27,10);
+insert into test_risk values (32,28,10);
+insert into test_risk values (33,29,11);
+insert into test_risk values (34,4,11);
+insert into test_risk values (35,30,12);
+insert into test_risk values (36,31,12);
+insert into test_risk values (37,32,13);
+insert into test_risk values (38,33,13);
+insert into test_risk values (39,34,13);
+
+
+//insert into test_risk values (,,);
+
+
+
+
+

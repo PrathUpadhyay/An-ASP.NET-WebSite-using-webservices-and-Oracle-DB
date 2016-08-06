@@ -1,0 +1,154 @@
+TABLE_NAME
+------------------------------
+users*
+categories*
+locations*
+tests*
+labs*
+lab_tests (labs + tests they provide)*
+lab_tests_locations (lab + tests they provide + location)*
+risk_areas (like bones, heart etc)*
+test_risk (test + risk_areas)*
+orders
+FAMILY_ACCOUNT_USERS_ADDED (people already added in the family account)
+FAMILY_ACCOUNT_USERS_PENDING (people whose request still pending)
+
+
+
+
+
+commit
+
+select tablespace_name, table_name from user_tables;
+
+
+cl scr
+
+
+
+create table USERS(
+USER_ID NUMBER(10) PRIMARY KEY,
+NAME VARCHAR2(500 Byte) not null,
+USERNAME VARCHAR2(500 Byte) NOT NULL UNIQUE,
+PASSWORD VARCHAR2(400 Byte) not null,
+EMAIL VARCHAR2(200 Byte) NOT NULL UNIQUE,
+MOBILE VARCHAR2(100 Byte),
+PHOTO VARCHAR2(100 Byte)
+);
+
+
+
+
+
+
+create table CATEGORIES(
+CAT_ID NUMBER(10) PRIMARY KEY,
+CAT_NAME VARCHAR2(400 Byte) not null unique
+);
+
+
+
+
+
+
+create table LAB_TESTS_LOCATIONS(
+LAB_TESTS_LOCATIONS_ID NUMBER(10) PRIMARY KEY,
+LAB_TEST_ID NUMBER(10) not null,
+LOC_ID NUMBER(10) not null,
+ADDRESS VARCHAR2(1000)
+);
+
+
+
+
+create table LOCATIONS(
+LOC_ID NUMBER(10) PRIMARY KEY,
+LOCATION_NAME VARCHAR2(400 Byte) not null unique
+);
+
+
+
+
+
+create table LAB_TESTS(
+LAB_TEST_ID NUMBER(10) PRIMARY KEY,
+LAB_ID NUMBER(10) not null,
+TEST_ID NUMBER(10) not null,
+amount number(6) not null
+);
+
+
+
+
+
+create table TESTS(
+TEST_ID NUMBER(10) PRIMARY KEY,
+TEST_NAME VARCHAR2(100) not null unique,
+DETAILS VARCHAR2(1000),
+age_lower_limit number(3),
+age_upper_limit number(3),
+gender varchar2(1)
+);
+
+//gender = a (all), m (male), f (female)
+
+
+
+
+
+
+
+create table LABS(
+LAB_ID NUMBER(10) PRIMARY KEY,
+LAB_NAME VARCHAR2(100) not null unique
+);
+
+
+
+
+
+create table risk_areas(
+risk_area_id number(10) PRIMARY KEY,
+risk_area_name varchar2(100) not null unique
+);
+
+
+create table test_risk(
+test_risk_id number(10) primary key,
+test_id number(10) not null,
+risk_area_id number(10) not null
+);
+
+
+
+
+
+
+
+create table ORDERS(
+ORDER_ID NUMBER(10) PRIMARY KEY,
+LAB_TESTS_LOCATIONS_ID NUMBER(10) NOT NULL,
+DUE_DATE DATE NOT NULL,
+USER_ID NUMBER(10) NOT NULL,
+PHONE NUMBER(15)
+);
+
+
+
+
+
+create table FAMILY_ACCOUNT_USERS_ADDED(
+F_ACC_USR_ADDED_ID number(10) primary key,
+USER_ID_1 NUMBER(10) NOT NULL,
+USER_ID_2 NUMBER(10) NOT NULL
+);
+
+
+//user_id_1 will always be lexiographically smaller than 2, otherwise data duplication might happen
+
+
+create table FAMILY_ACCOUNT_USERS_PENDING(
+F_ACC_USR_PENDING_ID number(10) primary key,
+USER_ID_1 NUMBER(10) NOT NULL,
+USER_ID_2 NUMBER(10) NOT NULL
+);

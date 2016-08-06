@@ -1,0 +1,85 @@
+body {
+	font-family: "adrianna", sans-serif;
+	font-size: 10pt;
+}
+
+a {
+	color: #f64f18;
+	font-weight: bold;
+}
+
+a[href]:after {
+	content: " (" attr(href) ")";
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+
+a.brand:after,
+.ir a:after,
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+	content: "";
+}
+
+.section {
+	padding: 2em 0;
+	border-bottom: 1px solid #888;
+}
+
+.section-footer {
+	border-bottom: none;
+}
+
+.section-navbar .brand {
+	font-size: 24pt;
+	margin: 1em 0;
+	font-weight: normal
+}
+
+.nav .active a {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+.price {
+	margin: 1em 0;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+.btn {
+	margin: 1em 1em 1em 0;
+}
+
+.flexslider ul.slides {
+	-webkit-transform: none !important;
+	width: auto !important;
+	margin: 0;
+	padding: 0;
+}
+
+.flexslider ul.slides>li {
+	display: block !important;
+	width: auto !important;
+	float: none !important;
+}
+
+.match-height .match-target {
+	height: auto !important;
+}
+
+#payment-form,
+.flexslider ul.slides>li.clone,
+.modal,
+.section-map,
+.section-mini-price,
+.no-display,
+.flex-control-nav,
+.flex-direction-nav,
+.hosting-dots {
+	display: none !important;
+}

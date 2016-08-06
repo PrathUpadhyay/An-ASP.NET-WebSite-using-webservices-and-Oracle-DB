@@ -1,0 +1,83 @@
+﻿/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor:default;
+	height : 73px;
+	font-family:Tahoma;
+	font-size:12px;
+    text-align : left; 
+    list-style-type : none;
+	overflow:auto;
+	padding:1px;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #005b96;
+	color: black;
+	padding: 1px;
+	 /*-moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;*/
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+
+
+.autocomplete_completionListElement2 
+{  
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor:default;
+	height : 200px;
+	font-family:Tahoma;
+	font-size:12px;
+    text-align : left; 
+    list-style-type : none;
+	overflow:auto;
+	padding:1px;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem2
+{
+	background-color:beige;
+	color: black;
+	padding: 1px;
+	 /*-moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;*/
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem2 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}

@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  position: relative;
+   cursor:pointer;
+   
+}
+#cssmenu {
+  width:198px;
+box-shadow:0 0 4px 3px #ccc;
+}
+#cssmenu a {
+}
+#cssmenu > ul > li:first-child {
+  background: #000;
+}
+#cssmenu > ul > li:first-child > a {
+  padding: 15px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  color:#ffffff;
+  font-weight:bold;
+}
+#cssmenu > ul > li:first-child > a > span {
+  padding: 0;
+}
+#cssmenu > ul > li:first-child:hover {
+
+}
+
+#cssmenu > ul > li {
+ 
+}
+
+#cssmenu > ul > li.has-sub{
+  border-top:1px solid #666;
+  
+}
+
+#cssmenu > ul > li:hover {
+color:#000000;
+}
+#cssmenu > ul > li > a {
+  font-size:12px;
+  display: block;
+  color: #222;
+  text-transform:uppercase;
+  font-weight:bold;
+  padding:15px 10px;
+}
+#cssmenu > ul > li > a > span {
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.has-sub > a span {
+  background: url(menu_images/icon_plus.png) 96% center no-repeat;
+}
+
+#cssmenu > ul > li.open > a span {
+  background: url(menu_images/icon_minus.png) 96% center no-repeat;
+}
+
+
+#cssmenu ul ul > li.has-sub > a span {
+  background: url(menu_images/icon_plus2.png) right no-repeat; display:block;
+}
+
+#cssmenu ul ul > li.open > a span {
+  background: url(menu_images/icon_minus2.png) right no-repeat; display:block; border-right:none;
+}
+
+
+
+
+
+
+
+
+#cssmenu ul ul {
+  display: none;
+  background: #fff;
+  padding:0px 0px 10px 10px;
+  width:180px;
+}
+
+#cssmenu ul ul ul {
+  display: none;
+  background: #fff;
+  border-right: none;
+  width:172px;
+  padding:5px 0px 5px 0px
+}
+
+
+#cssmenu ul ul li {
+  padding: 0;
+  border-top: none;
+  line-height:20px;
+  padding:0px 0px 0px 0px;
+  font-size:12px;
+  color:#242424;
+ 
+}
+
+
+
+#cssmenu ul ul li label{margin: 0px 0px 0px 0px;
+    font-size: 11px;
+    color: #666;
+    width: 120px;
+    height: 20px;
+    overflow: hidden;
+    line-height: 12px;}
+
+#cssmenu ul ul li input{float:left; margin:0px 8px 0px 0px;}
+
+
+
+#cssmenu ul ul li:last-child {
+  border-bottom: none;
+}
+#cssmenu ul ul a {
+  padding: 7px 8px 0px 0px;
+  display: block;
+  color: #666;
+  font-size:12px;
+  font-weight: normal;
+}
+#cssmenu ul ul a:before {
+  /*content: '\203A';*/
+  position: absolute;
+  left: 10px;
+  color: #e94f31;
+}
+#cssmenu ul ul a:hover {
+  color: #e94f31;
+}
+
+
+#cssmenu ul ul li label .input{width:28px; padding:5px 10px;; border:1px solid #E6E6E6;}
+.button{padding:2px 3px; color:#ffffff; border:none; background:#000000; font-weight:bold; text-transform:capitalize; cursor:pointer;}
+
+
+.small label{font-size:11px;}
+
+
+.content_x {
+    max-height: 205px;
+    min-height: 75px;
+    overflow: hidden;
+}

@@ -1,0 +1,5 @@
+HTML AGLITY PACK for web crawling
+and
+pacifico for font
+and
+DALC4NET for database connectivity

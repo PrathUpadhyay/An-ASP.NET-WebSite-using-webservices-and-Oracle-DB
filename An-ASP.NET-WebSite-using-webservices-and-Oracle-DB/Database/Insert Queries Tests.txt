@@ -1,0 +1,46 @@
+
+//'Test' word needs to be concatenated from the front end, so website gets faster
+//for ex, here test-name is Vitamin D, and on the website it'll be visible like Vitamin D Test
+
+-----------------------TESTS-------------------
+
+insert into TESTS values (1,'Vitamin D','Measures the levels of vitamin D in your body',0,60,'a');
+insert into TESTS values (2,'Arthritis','To examine your joints and skin, and test your muscle strength',25,60,'a');
+insert into TESTS values (3,'Hypothyroid','To check the function of Thyroid gland and its disorders',18,60,'a');
+insert into TESTS values (4,'Vitamin D Total-25 Hydroxy','It measures the levels of Vitamin in your body',18,60,'a');
+insert into TESTS values (5,'Anemia','Helps to check for low Iron levels and Anaemia in Blood',18,45,'a');
+insert into TESTS values (6,'Thalassemia','Helps to check inherited Blood disorders at early stages',0,25,'a');
+insert into TESTS values (7,'Infertility (F)','Diagnose various factors responsible for infertility in Men',18,35,'m');
+insert into TESTS values (8,'Infertility (M)','Diagnose various factors responsible for infertility in Women',18,35,'f');
+insert into TESTS values (9,'Platelets','Diagnose the platelet count in blood',0,60,'a');
+insert into TESTS values (10,'MRI Scan','Helps to create pictures of cross-sections of different Body Parts',0,60,'a');
+insert into TESTS values (11,'EEG','Electroencephalography(EEG) monitors brain activity through the skull',25,45,'a');
+insert into TESTS values (12,'Lipid Profile','To assess risk of developing Heart disease and helps to prevent it',18,60,'a');
+insert into TESTS values (13,'Hypertension','To check the effects of high Blood pressure on other body Organs',25,60,'a');
+insert into TESTS values (14,'Diabetes','To monitor your Diabetic conditions and complications',18,60,'a');
+insert into TESTS values (15,'2D ECHO','ECHO uses 2-D and Doppler ultrasound to create images of the Heart',0,45,'a');
+insert into TESTS values (16,'CT Scan','To create pictures of cross-sections of different Body Parts',0,60,'a');
+insert into TESTS values (17,'Chlamydia','Detects harmful pathogen and bacterias',25,60,'a');
+insert into TESTS values (18,'Urine Routine','Detect bacteria and blood in the urine',25,60,'a');
+insert into TESTS values (19,'Smokers Profile','To measure the amount of nicotine in Blood, Urine and Saliva',18,60,'a');
+insert into TESTS values (20,'PCR (Tuberculosis)','To find markers of Tuberculosis infection',0,25,'a');
+insert into TESTS values (21,'Lung Cancer','To identify Lung Cancers before severe symptoms appear',18,45,'a');
+insert into TESTS values (22,'Kidney Function','To analyse the working of dialysis system of the body',25,60,'a');
+insert into TESTS values (23,'Drinkers Package','Measures the harmful effects of Alcohol',25,45,'a');
+insert into TESTS values (24,'S.creatinine','Analyses Creatinine amount in the body',25,45,'m');
+insert into TESTS values (25,'Skin Allergy','Diagnoses Skin Allergies in a person',18,45,'a');
+insert into TESTS values (26,'Epstein-Barr Virus','EBV antibodies are used to help diagnose infectious mononucleosis',18,35,'f');
+insert into TESTS values (27,'Spleen CheckUp','Diagnoses the health factors related to spleen',25,45,'f');
+insert into TESTS values (28,'Neck Profile','Health problems related to neck analysed',18,35,'a');
+insert into TESTS values (29,'Thyroid Profile','To check the function of Thyroid gland and its disorders',35,60,'a');
+insert into TESTS values (30,'Pre Operative','Provides information about conditions that affect treatment',35,60,'a');
+insert into TESTS values (31,'Executive Health','Full Body Screening and Testing',0,60,'a');
+insert into TESTS values (32,'Breast Cancer','Detection of Cancer at early stages in women',25,45,'f');
+insert into TESTS values (33,'Hormone (M)','Detects the level of various hormones in Men',18,35,'m');
+insert into TESTS values (34,'Hormone (F)','Detects the level of various hormones in Women',18,35,'f');
+
+
+//insert into TESTS values (,'','',,,'');
+
+
+

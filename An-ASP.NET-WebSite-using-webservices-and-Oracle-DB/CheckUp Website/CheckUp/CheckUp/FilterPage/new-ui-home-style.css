@@ -1,0 +1,6593 @@
+@font-face {
+
+	font-family: "OpenSans-Semibold";
+
+	src: url("../../css/OpenSans-Semibold.ttf");
+
+}
+
+@font-face {
+
+	font-family: "Roboto-Regular_2";
+
+	src: url("../font/Roboto-Regular_2.ttf");
+
+}
+
+@font-face {
+
+	font-family: "Roboto-Medium_2";
+
+	src: url("../font/Roboto-Medium_2.ttf");
+
+}
+
+@font-face {
+
+	font-family: "OpenSans-Semibold";
+
+	src: url("../../css/OpenSans-Semibold.ttf");
+
+}
+
+@font-face {
+
+	font-family: "Roboto-Regular_2";
+
+	src: url("../font/Roboto-Regular_2.ttf");
+
+}
+
+@font-face {
+
+	font-family: "Roboto-Medium_2";
+
+	src: url("../font/Roboto-Medium_2.ttf");
+
+}
+
+@font-face {
+
+	font-family: "OpenSans-Regular";
+
+	src: url("../font/OpenSans-Regular.ttf");
+
+}
+
+#healthians-top-header {
+
+	background: none repeat scroll 0 0 #494949;
+
+	height: 35px;
+
+	position: fixed;
+
+	top: 0;
+
+	width: 100%;
+
+	z-index: 998;
+
+	-webkit-transition: all 0.4s ease;
+
+	transition: all 0.4s ease;
+
+}
+
+#healthians-top-header.sticky {
+
+	line-height: 35px;
+
+	height: 35px;
+
+	background: #262626;
+
+	text-align: left;
+
+}
+
+#healthians-top-header .th_container {
+
+	width: 1000px;
+
+	margin: 0px auto;
+
+	font-family: "OpenSans-Regular";
+
+}
+
+#healthians-top-header .th_container .leftdv {
+
+	color: #fff;
+
+	float: left;
+
+	font-family: opensans-regular;
+
+	font-size: 1.2em;
+
+	line-height: 32px;
+
+	width: 370px;
+
+}
+
+
+
+
+
+.book_test_procedure_inner{ top:0px !important;}
+
+
+
+.ft_main{ width:1000px; margin:0px auto; clear:both;} 
+
+
+
+
+
+.h_health-dtl{ width:auto;}
+
+.h_health-dtl .left_gend_box { float: left;}
+
+.h_health-dtl .left_gend_box .labeled {    color: #262626;    float: left;    font-family: "opensans-regular";    font-size: 1.2em;
+
+    line-height: 27px;    margin-right: 39px;    padding-left: 4px;    width: 205px !important;
+
+}
+
+
+
+.h_health-dtl .mid_box_popup {
+
+
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    width: 960px;
+
+}
+
+
+
+
+
+
+
+.h_health-dtl .mid_box_popup h2{
+
+    color: #087eaf;
+
+    font-family: "opensans-regular";
+
+    font-size: 16px;
+
+    font-weight: normal;
+
+    line-height: 22px;
+
+    margin: 0 0 5px;
+
+    padding: 0;
+
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+.h_health-dtl .label-opt {
+
+    color: #262626;
+
+    float: left;
+
+    font-family: "opensans-regular";
+
+    font-size: 14px;
+
+    line-height: 22px;
+
+    padding-left: 0;
+
+    text-transform: capitalize;
+
+    width: 200px;
+
+}
+
+
+
+
+
+
+
+#healthians-top-header .th_container .center-dv {
+
+	float: left;
+
+	color: #fff;
+
+	padding-left: 25px;
+
+	background: url(../../../../img.healthians.com/assets/images/upload_doctor_pres.png) no-repeat left center;
+
+	line-height: 32px;
+
+	font-size: 1.2em;
+
+}
+
+#healthians-top-header .th_container .center-dv a {
+
+	text-decoration: underline;
+
+	color: #ffa246;
+
+}
+
+#healthians-top-header .th_container .right-dv {
+
+	float: right;
+
+}
+
+#healthians-top-header .th_container .right-dv ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+#healthians-top-header .th_container .right-dv ul li {
+
+	float: left;
+
+	line-height: 31px;
+
+	font-size: 1.2em;
+
+/*background:url(https://img.healthians.com/assets/images/user_profile.png) no-repeat left center; */ }
+
+#healthians-top-header .th_container .right-dv ul li a {
+
+	padding: 2px 10px;
+
+	display: block;
+
+	text-decoration: none;
+
+	color: #fff;
+
+}
+
+#healthians-top-header .th_container .right-dv ul li a:hover {
+
+	background: #1ba4d3;
+
+	color: #FFF;
+
+}
+
+#healthians-top-header .th_container .right-dv ul li img {
+
+	float: left;
+
+	position: relative;
+
+	top: 7px;
+
+	margin-right: 5px;
+
+}
+
+/*#healthians-top-header .th_container .right-dv ul li:first-child{ background: url(https://img.healthians.com/assets/images/user_profile.png) no-repeat left center;   padding-left:12px;}*/
+
+
+
+
+
+.Topcalloption {
+
+	background: #0195bb;
+
+	-webkit-border-bottom-right-radius: 3px;
+
+	-webkit-border-bottom-left-radius: 3px;
+
+	-moz-border-radius-bottomright: 3px;
+
+	font-family: "OpenSans-Regular";
+
+	text-shadow: 0 1px 0 #0083a4;
+
+	-moz-border-radius-bottomleft: 3px;
+
+	float: right;
+
+	color: #fff;
+
+	font-size: 16px;
+
+	line-height: 35px;
+
+	right: -57px;
+
+	position: relative;
+
+	border-bottom-right-radius: 3px;
+
+	padding: 0 10px;
+
+	border-bottom-left-radius: 3px;
+
+}
+
+.Topcalloption img {
+
+	float: left;
+
+	margin-right: 5px;
+
+	margin-top: 3px;
+
+	padding: 5px 3px;
+
+}
+
+#healthians-top-header .th_container .right-dv ul li a.selected {
+
+	background: #1ba4d3;
+
+	color: #FFF;
+
+}
+
+#healthians-top-header .th_container .right-dv ul li.no-icon {
+
+	background: none !important;
+
+}
+
+.menu_style_right {
+
+	background: none repeat scroll 0 0 #252525;
+
+	color: #000 !important;
+
+	height: 36px;
+
+}
+
+.healthian-banner-area {
+
+	background-color: #fff !important;
+
+	height: 351px;
+
+	margin: 106px 0 0;
+
+	padding: 30px 0 0;
+
+	width: 100%;
+
+}
+
+.btm-src {
+
+	clear: both;
+
+	color: #09647c;
+
+	font-family: "Helvetica";
+
+	font-size: 15px;
+
+	line-height: 30px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+}
+
+.btm-src a {
+
+	text-decoration: underline;
+
+	color: #ff7a13;
+
+}
+
+/*nav*/
+
+
+
+.hcd_header {
+
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
+
+	height: 103px;
+
+	/*box-shadow:0 0 5px 0 #ccc;*/ box-shadow:0 1px 4px rgba(0, 0, 0, 0.1);
+
+	box-sizing: border-box;
+
+	position: absolute;
+
+	width: 100%;
+
+	z-index: 1;
+
+}
+
+.menu_nav_newui {
+
+	float: left;
+
+	margin: 23px 0 0 65px;
+
+}
+
+.box-cross {
+
+	border-bottom: 1px dotted #999;
+
+	border-top: none !important;
+
+	width: auto;
+
+}
+
+.s_hour {
+
+	float: right;
+
+	margin: 7px 0 0 0;
+
+}
+
+.header nav {
+
+	float: left;
+
+	left: 8px !important;
+
+	position: relative;
+
+	z-index: 200;
+
+}
+
+.header nav > ul > li:last-child {
+
+	border: none !important;
+
+}
+
+.header nav > ul > li > a, .header nav > ul > li > a:visited {
+
+	color: #6b6b6b !important;
+
+	display: block;
+
+	/*font-size: 13px !important;*/ font-size: 1.2em !important;
+
+	/*font-family: "OpenSans-Regular" !important;*/
+
+	letter-spacing: 1px;
+
+	font-weight: normal !important;
+
+	padding: 10px 15px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+}
+
+.header nav > ul > li {
+
+	border-right: 1px solid #efefef !important;
+
+	float: left;
+
+	list-style: outside none none !important;
+
+	position: relative;
+
+	text-transform: uppercase;
+
+}
+
+.header nav > ul > li > a:hover, .header nav > ul > li:hover > a {
+
+	/*background-color: #007ea9;
+
+    background-repeat: no-repeat;*/ background: #007ea9;
+
+	color: #fff !important;
+
+}
+
+.header nav > ul > li:last-child a {
+
+	color: #000 !important;
+
+}
+
+
+
+.header nav > ul > li:last-child a:hover{ color:#fff;}
+
+
+
+.header nav > ul > li > ul {
+
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.97);
+
+	border-radius: 6px;
+
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+
+	display: none;
+
+	left: 50%;
+
+	list-style: outside none none !important;
+
+	margin-left: -90px;
+
+	min-width: 180px;
+
+	position: absolute;
+
+	top: 100%;
+
+	list-style: none !important;
+
+	z-index: 201;
+
+}
+
+/*nav*/
+
+
+
+.header nav > ul > li > a, .header nav > ul > li > a:visited {
+
+	color: #fff;
+
+	display: block;
+
+	font: bold 11.4px Arial, Helvetica, sans-serif;
+
+	letter-spacing: 0 !important;
+
+	padding: 11px 15px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+}
+
+.hcd_logo img {
+
+	width: 78%;
+
+}
+
+/*search bar*/
+
+
+
+.healthian-banner-area .healt-search-panel {
+
+	/*background: #ffffff; /* Old browsers */
+
+/*background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
+
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed));*/ /* Chrome,Safari4+ */
+
+/*background: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%);*/ /* Chrome10+,Safari5.1+ */
+
+/*background: -o-linear-gradient(top, #ffffff 0%,#ededed 100%);*/ /* Opera 11.10+ */
+
+/*background: -ms-linear-gradient(top, #ffffff 0%,#ededed 100%);*/ /* IE10+ */
+
+/*background: linear-gradient(to bottom, #ffffff 0%,#ededed 100%);*/ /* W3C */
+
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );*/ /* IE6-9 */ 
+
+
+
+	
+
+	
+
+	
+
+	float: left;
+
+	height: auto;
+
+	border-radius: 8px;
+
+	padding: 15px;
+
+	box-sizing: border-box;
+
+	width: 568px !important;
+
+}
+
+.outer_shadow {/*background-image: url("httpss://www.healthians.com/assets/images/backgroundBox_home.png");*/
+
+	border-radius: 8px;
+
+	padding: 7px;
+
+	margin-top: 65px;
+
+	text-align: left; /*-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.04);
+
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.04);
+
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.04);*/
+
+}
+
+ @media all and (min-width: 1024px) and (max-width: 1366px) {
+
+}
+
+.healthian-banner-area .healt-search-panel h1 {
+
+	color: #09647c;
+
+	font-family: "Helvetica-Light_2";
+
+	font-size: 34px;
+
+	font-weight: normal;
+
+	/*margin: 126px 0 8px;*/ margin: 10px 0;
+
+	text-align: center;
+
+	text-shadow: 0 2px 1px #eaeaea;
+
+}
+
+.healthian-banner-area .healt-search-panel h4 {
+
+	color: #0d88aa;
+
+	font-family: "Helvetica-Light_2";
+
+	text-align: center;
+
+	font-size: 20px;
+
+}
+
+.see-more-labs {
+
+	display: none;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel {
+
+	color: #262626;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 12px;
+
+	margin-top: 30px;
+
+	width: auto;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul {
+
+	padding: 0px;
+
+	margin: 0px;
+
+	list-style: none;
+
+}
+
+.header nav > ul > li > a, .header nav > ul > li > a:visited {
+
+	color: #fff;
+
+	display: block;
+
+	font: bold 11.4px Arial, Helvetica, sans-serif;
+
+	letter-spacing: 1px;
+
+	padding: 11px 15px;
+
+	text-decoration: none;
+
+	text-transform: none !important;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul li {
+
+	display: block;
+
+	float: left;
+
+	width: auto;
+
+	background: url(../../../../img.healthians.com/assets/images/search-panel-rt-arrow.png) no-repeat right center;
+
+	padding: 0px 15px 0px 0px;
+
+	margin: 0px 10px 0px 0px;
+
+	font-size: 13px;
+
+	color: #fff;
+
+	font-family: OpenSans-Regular;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul li.back {
+
+	padding: 0px;
+
+	margin: 0px;
+
+	background: none;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul li label {
+
+	float: left;
+
+	padding: 5px 8px;
+
+	font-family: opensans-bold;
+
+	font-size: 16px;
+
+	background: url(../../../../img.healthians.com/assets/images/search-panel-label-bg.png) repeat-x #f9721e;
+
+	border-radius: 5px;
+
+	margin: 0px 6px 0px 0px;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul li p {
+
+	padding: 0px;
+
+	margin: 0px;
+
+	float: left;
+
+}
+
+.healthian-banner-area .healt-search-panel .search-top-panel ul li strong {
+
+	color: #fff;
+
+	padding: 0px;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	display: inline-block;
+
+}
+
+.searc-box-bottom {
+
+	margin-top: 0px;
+
+	height: 42px;
+
+	margin-top: 32px;
+
+	padding: 0px 0 3px 3px;
+
+	width: 518px;
+
+	margin-left: 7px;
+
+}
+
+.search-btm-box {
+
+	background: rgba(0,0,0,0.6);
+
+	height: 42px;
+
+	margin-top: 0;
+
+	border-radius: 3px;
+
+	padding: 3px 0 3px 3px;
+
+	width: 496px;
+
+}
+
+healthian-banner-area .healt-search-panel .searc-box-bottom {
+
+	width: auto;
+
+	background: #28679d;
+
+	padding: 10px;
+
+	border-radius: 8px;
+
+	margin: 30px 0px 10px 0px;
+
+}
+
+.healthian-banner-area .healt-search-panel .searc-box-bottom section {
+
+	padding: 0px;
+
+	margin: 0px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.healthian-banner-area .healt-search-panel .searc-box-bottom section .search-input {
+
+	float: left;
+
+	background: #fff;
+
+	border-radius: 8px 0px 0px 8px;
+
+	padding: 0px 10px !important;
+
+	font-size: 12px;
+
+	color: #666;
+
+	border: none;
+
+	line-height: 36px;
+
+	width: 444px;
+
+	-moz-box-shadow: inset 0px 0px 0px 10px #000000;
+
+	-webkit-box-shadow: inset 0px 0px 10px #000000;
+
+	box-shadow: inset 1px 2px 5px #000000;
+
+}
+
+.healthian-banner-area .healt-search-panel .searc-box-bottom section .search-bt {
+
+	background: url("../../../../img.healthians.com/assets/images/search-panel-button-aqua.png") repeat-x scroll center top #0a6a92;
+
+	border: medium none;
+
+	color: #fff;
+
+	float: left;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 18px;
+
+	height: 42px;
+
+	line-height: 41px;
+
+	padding: 0 18px;
+
+	text-transform: uppercase;
+
+}
+
+/*search bar*/
+
+
+
+.heathdeal-container {
+
+	background: url("../images/bg_coupon.jpg") repeat scroll center top;
+
+	width: 100%;
+
+	padding-bottom: 25px;
+
+	margin:55px auto 35px;
+
+	min-height: 580px;
+
+}
+
+.heathdeal-container .best-offer-health {
+
+	width: 1000px;
+
+	-moz-border-radius: 3px;
+
+	-webkit-border-radius: 3px;
+
+	margin: 0 auto;
+
+	border-radius: 3px;
+
+}
+
+.heathdeal-container .best-offer-health h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 32px;
+
+	margin: 0 auto 38px;
+
+	padding: 30px 0 6px;
+
+	text-align: center;
+
+}
+
+.heathdeal-container .best-offer-health .free-list-tab {
+
+	background-color: #f9f9f9;
+
+	border-radius: 30px;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+	height: 53px;
+
+	margin: 20px auto 4px;
+
+	width: 650px;
+
+}
+
+.heathdeal-container .best-offer-health .free-list-tab ul {
+
+	list-style: outside none none;
+
+	margin: 0 auto;
+
+	padding: 0;
+
+	width: 598px;
+
+}
+
+.heathdeal-container .best-offer-health .free-list-tab ul li {
+
+	background: rgba(0, 0, 0, 0) url("../images/ticked-arrow.png") no-repeat scroll left center;
+
+	border-right: 1px solid #e5e5e5;
+
+	float: left;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 15px;
+
+	line-height: 53px;
+
+	margin-left: 15px;
+
+	padding-left: 21px; 
+
+	padding-right: 17px;
+
+}
+
+.heathdeal-container .best-offer-health .free-list-tab ul li:last-child {
+
+	border-right: none !important;
+
+	border-right: 0px;
+
+}
+
+.heathdeal-container .deal-listing {
+
+	width: 1000px;
+
+	margin: 20px auto;
+
+}
+
+.heathdeal-container .deal-listing ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+.heathdeal-container .deal-listing ul li {
+
+	float: left;
+
+	width: 220px;
+
+	margin-right: 10px;
+
+	background: #fff none repeat scroll 0 0;
+
+	border-bottom: 1px solid #bbb;
+
+	border-left: 1px solid #e0e0e0;
+
+	border-radius: 5px;
+
+	border-right: 1px solid #e0e0e0;
+
+	box-shadow: 0 1px 1px #c7d7db;
+
+	display: inline-block;
+
+	margin: 20px 0 0;
+
+	margin-right: 12px;
+
+	padding: 8px;
+
+	min-height: 115px;
+
+}
+
+.heathdeal-container .deal-listing ul li h2 {
+
+	font-size: 16px;
+
+	min-height: 44px;
+
+	margin-bottom: 5px;
+
+	text-align: center;
+
+	color: #00648e;
+
+	font-family: "OpenSans-Regular";
+
+}
+
+.heathdeal-container .deal-listing ul li h2 a {
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+	color: #00648e;
+
+}
+
+.heathdeal-container .deal-listing ul li h2 a:hover {
+
+	color: #262626
+
+}
+
+.heathdeal-container .deal-listing ul li .parametre {
+
+	font-size: 13px;
+
+	height: 38px;
+
+	overflow: hidden;
+
+	margin-bottom: 7px;
+
+	text-align: center;
+
+	font-family: "OpenSans-Regular";
+
+	line-height: 20px;
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon {
+
+	background-color: #f4f4f6;
+
+	background-image: linear-gradient(180deg, #fff 0px, #f4f4f6 100%);
+
+	border: 1px solid #eaeaea;
+
+	font-family: "OpenSans-Regular";
+
+	margin: 10px 0 0 0;
+
+	text-align: center;
+
+	color: #535865;
+
+	border-radius: 3px;
+
+	line-height: 36px;
+
+	text-decoration: none;
+
+	font-size: 18px;
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon img {
+
+	position: relative;
+
+	top: 5px;
+
+	margin-right: 5px;
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon a {
+
+	font-size: 22px;
+
+	display: block;
+
+	text-decoration: none;
+
+	color: #1d1c1c;
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon:hover {
+
+	background-color: #f4f4f6;
+
+	background-image: none;
+
+	cursor: pointer;
+
+	color: #535865;
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon img {
+
+}
+
+.heathdeal-container .deal-listing ul li .cta-btn-coupon:focus {
+
+	background-color: #fff;
+
+	background-color: #fff;
+
+	background-image: none;
+
+	color: #535865;
+
+	outline: 0 none;
+
+	text-decoration: none;
+
+}
+
+.container_deal { /*width:1000px;*/
+
+	background: #f7f7f7;
+
+	width: 100%;
+
+	padding-bottom: 25px;
+
+	margin: 85px auto 35px;
+
+}
+
+.best-lab-outer { /*width:100%;*/
+
+	width: 1000px;/*padding:20px;*/
+
+	-moz-border-radius: 3px;
+
+	-webkit-border-radius: 3px;
+
+	margin: 0 auto;
+
+	border-radius: 3px;
+
+}
+
+.best-lab-outer h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 32px;
+
+	margin: 0 auto 38px;
+
+	padding: 30px 0 6px;
+
+	text-align: center;
+
+}
+
+.best-lab-outer .free-list-tab {
+
+	margin: 28px auto 4px;
+
+	max-width: 674px;
+
+	position: relative;
+
+	top: 6px;
+
+}
+
+.go-back {
+
+	background: none repeat scroll 0 0 #fff;
+
+	border: medium none;
+
+	border-radius: 3px;
+
+	color: #14b3f4;
+
+	cursor: pointer;
+
+	padding: 3px 5px;
+
+	left: -62px;
+
+	font-size: 15px;
+
+	position: relative;
+
+	top: 78px;
+
+}
+
+.best-lab-outer .free-list-tab ul {
+
+	margin: 0px auto;
+
+	padding: 0px;
+
+	list-style: none;
+
+	font-family: "OpenSans-Regular";
+
+	color: #7f7f7f;
+
+	font-weight: 700;
+
+}
+
+.best-lab-outer .free-list-tab ul li {
+
+	display: inline-block;
+
+	margin: 0 10px 0 10px;
+
+}
+
+.best-lab-outer .free-list-tab ul li span {
+
+	background: url("../../images/nright-arrow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+
+	font-size: 16px;
+
+	font-weight: normal;
+
+	color: #5b5b5b;
+
+	padding: 5px 12px 5px 32px;
+
+}
+
+.best-lab-outer .free-listing {
+
+	width: 100%;
+
+	float: left;
+
+	padding: 40px 0 6px;
+
+}
+
+.best-lab-outer .free-listing-box {
+
+	border-bottom: 1px solid #d9d9d9;
+
+	border-right: 1px solid #d9d9d9;
+
+	box-sizing: border-box;
+
+	color: #5b5b5b;
+
+	float: left;
+
+	font-family: "OpenSans-Regular";
+
+	line-height: 18px;
+
+	padding: 0 25px 25px;
+
+	width: 250px;
+
+}
+
+.best-lab-outer .free-listing-box span {
+
+	font-size: 15px;
+
+	min-height: 36px;
+
+	float: left;
+
+	padding: 0px 0px 15px 0px;
+
+}
+
+.best-lab-outer .free-listing-box a {
+
+	font-weight: 600;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	padding: 5px 18px 5px 10px;
+
+	width: auto;
+
+	float: left;
+
+	color: #fff;
+
+	font-size: 14px;
+
+	font-family: "OpenSans-Regular";
+
+	font-weight: 700;
+
+	-moz-border-radius: 4px;
+
+	-webkit-border-radius: 4px;
+
+	border-radius: 4px;
+
+	transition: 0.20s all ease-out;
+
+	background: url("../../images/arrow_price.png") no-repeat scroll 90% 12px #0d8abe;
+
+}
+
+.best-lab-outer .free-listing-box a:hover {
+
+	transition: all 0.25 ease-out;
+
+	background: url("../../images/arrow_price-hover.png") no-repeat scroll 92% 12px #0d8abe;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(4) {
+
+	border-right: 0px;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(5) {
+
+	padding: 25px 27px 25px 27px;
+
+	border-bottom: 0;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(6) {
+
+	padding: 25px 27px 25px 27px;
+
+	border-bottom: 0;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(7) {
+
+	padding: 25px 27px 25px 27px;
+
+	border-bottom: 0;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(8) {
+
+	padding: 25px 27px 25px 27px;
+
+	border-bottom: 0;
+
+	border-right: 0;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(9) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(10) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(11) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(12) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(13) {
+
+	padding: 25px 27px 25px 27px;
+
+	border-bottom: 0;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-top: 1px solid #d9d9d9;
+
+	min-height: 36px;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(14) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(15) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+.best-lab-outer .free-listing-box:nth-child(16) {
+
+	border-right: 0 none;
+
+	padding: 25px 27px;
+
+	border-right: 1px solid #d9d9d9;
+
+	border-bottom: 0;
+
+	border-top: 1px solid #d9d9d9;
+
+}
+
+#h-plus-container {
+
+	width: 100%; padding-top:35px;
+
+	background: #F7F7F7;
+
+}
+
+
+
+
+
+
+
+#healthians-plus {
+
+	width: 1000px;
+
+	margin: 5px auto;
+
+	padding: 0px 0 28px;
+
+	position: relative;
+
+}
+
+#healthians-plus h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 24px;
+
+	line-height: 32px;
+
+	margin: 0 auto 10px;
+
+	padding: 0 0 6px;
+
+	text-align: center;
+
+}
+
+#healthians-plus .get-h-plus {
+
+	display: inline;
+
+    float: left;
+
+    margin-left: 4px;
+
+  /*  position: relative;*/
+
+   /* top: -60px;*/
+
+
+
+}
+
+#healthians-plus .get-h-plus a {/*text-decoration:none; color:#FFF; font-family: "OpenSans-Regular"; font-size:18px;*/
+
+}
+
+.form-fill {
+
+	border: 1px solid #ccc;
+
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset !important;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	border-radius: 3px;
+
+	padding: 9px 5px !important;
+
+	width: 370px;
+
+	height: 25px;
+
+	margin-bottom: 10px;
+
+}
+
+.names {
+
+	color: #262626;
+
+	font-family: "roboto-regular_2";
+
+	font-size: 14px;
+
+	height: 28px;
+
+	line-height: 13px !important;
+
+	margin-right: 10px;
+
+	text-align: right;
+
+	display: block;
+
+}
+
+.total-score {
+
+	border-radius: 5px;
+
+	clear: both;
+
+	color: #fff;
+
+	display: block;
+
+	float: left;
+
+	font-size: 28px;
+
+	margin: 10px 0;
+
+	padding: 40px 65px;
+
+	text-align: left;
+
+}
+
+#healthians-plus .get-h-plus a:hover {/*text-decoration:none; color:#fff;*/
+
+}
+
+.w230 {
+
+	width: 180px;
+
+}
+
+.calculate-my-score {
+
+	background: url("../../images/arrow-circled.png") no-repeat scroll 96% center #087eaf;
+
+	border: medium none;
+
+	border-radius: 3px;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	display: block;
+
+	font-family: "roboto-regular_2";
+
+	font-size: 17px;
+
+	margin: 0 auto 10px;
+
+	padding: 5px 45px 5px 15px;
+
+	text-align: left;
+
+	text-shadow: 0 1px 0 #056c96;
+
+	transition: all 0.2s ease-out 0s;
+
+}
+
+.calculate-my-score:hover {
+
+	transition: all 0.2s ease-out 0s;
+
+	background: url("../../images/arrow-circled.png") no-repeat scroll 96% center #046f9c;
+
+}
+
+#healthians-plus .get-plus {
+
+	background: none repeat scroll 0 0 #0d8abe;
+
+	border-radius: 5px;
+
+	padding: 10px 18px;
+
+	position: absolute;
+
+	right: 422px;
+
+	color: #FFF;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 18px;
+
+	top: 207px;
+
+	position: absolute;
+
+	right: 432px;
+
+	top: 270px;
+
+}
+
+#healthians-plus .get-plus a {
+
+	text-decoration: none;
+
+	color: #FFF;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 18px;
+
+*/
+
+}
+
+#healthians-plus .get-plus a:hover {
+
+	text-decoration: none;
+
+	color: #fff;
+
+}
+
+#healthians-plus h2 {
+
+	color: #2e2e2e; margin-bottom:0px;
+
+	 font-family: "OpenSans-Semibold";
+
+	font-size: 24px;
+
+	font-weight: normal;
+
+	line-height:70px;
+
+	text-align: center;
+
+}
+
+#healthians-plus p {
+
+	color: #454545;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 14px;
+
+	line-height: 22px;
+
+	padding: 5px;
+
+	width: 658px;
+
+}
+
+#healthians-plus ul {
+
+	margin: 15px 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+	width: 550px;
+
+}
+
+#healthians-plus ul li {
+
+	font-size: 14px;
+
+	line-height: 24px;
+
+	padding-left: 5PX;
+
+	color: #454545;
+
+	font-family: "OpenSans-Regular";
+
+}
+
+.container-middle {
+
+	/*background: url("https://www.healthians.com/assets/images/images/healthians_plus_brand.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);*/
+
+	height: 301px;
+
+	position: relative;
+
+}
+
+.container-middle .img_cpntainer {
+
+	background: url("../../images/images/healthians_plus_brand.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+
+	height: 307px;
+
+	position: absolute;
+
+	right: 0;
+
+	top: 82px;
+
+	width: 328px;
+
+	z-index: 8;
+
+}
+
+.base-shaddow {
+
+	background: url("../../images/images/shaddow_usp.jpg") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+
+	bottom: -80px;
+
+	height: 20px;
+
+	position: absolute;
+
+	width: 1000px;
+
+}
+
+#subscribe_panel {
+
+	height: 248px;
+
+	background: #eff0f6;
+
+	-webkit-border-top-left-radius: 40px;
+
+	-webkit-border-bottom-right-radius: 40px;
+
+	-moz-border-radius-topleft: 40px;
+
+	-moz-border-radius-bottomright: 40px;
+
+	border-top-left-radius: 40px;
+
+	border-bottom-right-radius: 40px;
+
+	border: 2px solid #0a6a92;
+
+	width: 970px;
+
+	margin: 0px auto;
+
+	padding: 3px;
+
+	margin-top: 65px;
+
+}
+
+#subscribe_panel .left-subscb {
+
+	background: url("../images/nwletter.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+
+	float: left;
+
+	height: 243px;
+
+	margin-left: 32px;
+
+	margin-top: -2px;
+
+	width: 339px;
+
+}
+
+#subscribe_panel .right-subscb {
+
+	float: right;
+
+	width: 585px;
+
+	text-align: center;
+
+}
+
+#subscribe_panel .right-subscb h1 {
+
+	color: #3a3a3a;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 26px;
+
+	line-height: 72px;
+
+	text-transform: uppercase;
+
+}
+
+#subscribe_panel .right-subscb p {
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px;
+
+	line-height: 22px;
+
+	padding: 4px 0;
+
+}
+
+.footer-subscribe-input {
+
+	background: none repeat scroll 0 0 #fff;
+
+	border: 1px solid #dedede;
+
+	color: #7e7e7e;
+
+	font-family: "OpenSans-Regular";
+
+	height: 39px;
+
+	left: -65px;
+
+	margin-bottom: 8px;
+
+	padding-left: 15px;
+
+	position: relative;
+
+	width: 288px;
+
+}
+
+.footer-subscribe {
+
+	background: url("../../../../img.healthians.com/assets/images/search-panel-button-aqua.png") repeat-x scroll center top #0a6a92;
+
+	border: medium none;
+
+	box-sizing: border-box;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	display: inline-block;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 18px;
+
+	left: -61px;
+
+	line-height: 26px;
+
+	margin: -10px 0 0 -31px;
+
+	padding: 5px 15px;
+
+	position: relative;
+
+	text-align: center;
+
+	text-decoration: none;
+
+}
+
+#video-panel {
+
+	background: none repeat scroll 0 0 #f8f8f8;
+
+	color: #2e2e2e;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 13px;
+
+	line-height: 20px;
+
+	margin: 0 auto;
+
+	padding: 50px 0 30px 0;
+
+	width: 100%;
+
+}
+
+.vd-mid {
+
+	width: 1000px;
+
+	margin: 0px auto;
+
+}
+
+.btm-line {
+
+	background: url("../../images/images/btm-line-new.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+
+	height: 2px;
+
+	left: 60px;
+
+	margin-bottom: 30px;
+
+	position: relative;
+
+	top: 43px;
+
+	width: 1000px;
+
+}
+
+.hide_style {
+
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: medium none;
+
+	cursor: pointer;
+
+	position: relative;
+
+	top: 46px;
+
+}
+
+.show_style {
+
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: medium none;
+
+	position: relative;
+
+	cursor: pointer;
+
+	top: 46px;
+
+}
+
+/*.btm-line-T {
+
+	background: url("https://www.healthians.com/assets/images/images/btm-line-new.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+
+	height: 2px;
+
+	left: 60px;
+
+	margin-bottom: 30px;
+
+	position: absolute;
+
+	top: 24px;
+
+	width: 1000px;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show_ss {
+
+	border: medium none;
+
+	cursor: pointer;
+
+	position: relative;
+
+	top: -16px;
+
+	width: 33px;
+
+	margin: 0 auto;
+
+}
+
+.show_hh {
+
+	border: medium none;
+
+	cursor: pointer;
+
+	position: relative;
+
+	margin: 0 auto;
+
+	top: -16px;
+
+	width: 33px;
+
+}
+
+#footer-UI { background:#0a6a92;
+
+	
+
+	float: left;
+
+	height: auto;
+
+	margin: 0 auto 0px;
+
+	padding: 15px 0 12px 0px;
+
+	width: 100%;
+
+}
+
+#footer-abt {
+
+	width: 100%;
+
+	padding: 20px 0px;
+
+	background: #f5f6f8;
+
+}
+
+#footer-abt .mid {
+
+	width: 1000px;
+
+	margin: 0px auto;
+
+}
+
+#footer-abt .mid p {
+
+	font-size: 13px;
+
+	line-height: 20px;
+
+	font-family: "OpenSans-Regular";
+
+	text-align: justify;
+
+}
+
+#hided-element {
+
+	display: none;
+
+}
+
+#footer-UI .NF-container {
+
+	width: 1000px;
+
+	margin: 0 auto;
+
+}
+
+#footer-UI .NF-container .left-col {
+
+	float: left;
+
+	margin-right: 10px;
+
+	margin-bottom: 12px;
+
+}
+
+#footer-UI .NF-container .left-col h2.titleblock {
+
+	color: #fff;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px; font-weight:normal;
+
+	line-height: 35px;
+
+	text-transform: uppercase;
+
+}
+
+#footer-UI .NF-container .left-col ul {
+
+	float: left;
+
+	list-style: outside none none;
+
+	margin: 0 20px 0 0;
+
+	padding: 0;
+
+	width: 210px;
+
+}
+
+#footer-UI .NF-container .left-col ul li {
+
+	/*border-bottom: 1px dotted #35809f;*/
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 1.1em;
+
+	line-height: 28px;
+
+}
+
+#footer-UI .NF-container .left-col ul li a {
+
+	text-decoration: none;
+
+	/*background: url("https://www.healthians.com/assets/images/ftr_arrow_white.png") no-repeat scroll 1px center;*/
+
+	transition: 0.20s all ease-out;
+
+	/*padding-left: 18px;*/
+
+	color: #fff;
+
+}
+
+#footer-UI .NF-container .left-col ul li a:hover {
+
+	color: #ffa246;
+
+	/*background: url("https://www.healthians.com/assets/images/ftr_arrow_white.png") no-repeat scroll 4px center;*/
+
+	transition: 0.20s all ease-out;
+
+}
+
+#footer-UI .NF-container .social-media-col {
+
+	float: right;
+
+	margin-right: 20px;
+
+}
+
+#footer-UI .NF-container .social-media-col h2.titleblock {
+
+	color: #fff;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px; font-weight:normal;
+
+	line-height: 35px;
+
+	text-transform: uppercase;
+
+}
+
+#footer-UI .NF-container .social-media-col ul {
+
+	float: left;
+
+	list-style: outside none none;
+
+	margin: 0 30px 0 0;
+
+	padding: 0;
+
+	width: 180px;
+
+}
+
+#footer-UI .NF-container .social-media-col ul li {
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 1.1em;
+
+	line-height: 28px;
+
+}
+
+#footer-UI .NF-container .social-media-col ul li a {
+
+	text-decoration: none;
+
+	padding-left: 10px;
+
+	color: #fff;
+
+}
+
+#footer-UI .NF-container .social-media-col ul li a:hover {
+
+	color: #ffa246;
+
+}
+
+#footer-UI .NF-container .social-media-col ul li img {
+
+	float: left;
+
+	margin-right: 2px;
+
+	margin-top: 6px;
+
+}
+
+#footer-UI .NF-container .quick_Llinks {
+
+	float: left;
+
+	margin-left: 10px;
+
+	width: 217px;
+
+}
+
+#footer-UI .NF-container .quick_Llinks h2.titleblock {
+
+	color: #fff;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px; font-weight:normal;
+
+	line-height: 35px;
+
+	text-transform: uppercase;
+
+}
+
+#footer-UI .NF-container .quick_Llinks ul {
+
+	float: left;
+
+	list-style: outside none none;
+
+	margin: 0 30px 0 0;
+
+	padding: 0;
+
+	width: 180px;
+
+}
+
+#footer-UI .NF-container .quick_Llinks ul li {
+
+	/*border-bottom: 1px dotted #35809f;*/
+
+	font-family: "OpenSans-Regular";
+
+	/* background: url("https://www.healthians.com/assets/images/ftr_arrow_white.png") no-repeat scroll left center;*/
+
+	font-size: 1.1em;
+
+	line-height: 28px;
+
+}
+
+#footer-UI .NF-container .quick_Llinks ul li a {
+
+	text-decoration: none;
+
+	/*background: url("https://www.healthians.com/assets/images/ftr_arrow_white.png") no-repeat scroll 1px center;*/
+
+	transition: 0.20s all ease-out;
+
+	/*padding-left: 18px;*/
+
+	color: #fff;
+
+}
+
+#footer-UI .NF-container .quick_Llinks ul li a:hover {
+
+	color: #ffa246;
+
+	/*background: url("https://www.healthians.com/assets/images/ftr_arrow_white.png") no-repeat scroll 4px center;*/
+
+	transition: 0.20s all ease-out;
+
+}
+
+#footer-UI .NF-container .quick_Llinks ul li img {
+
+	float: left;
+
+	margin-right: 2px;
+
+	margin-top: 6px;
+
+}
+
+.copyright-columns {
+
+	height: 0;
+
+    padding-bottom: 57px;
+
+    padding-top: 2px;
+
+    width: 100%;
+
+}
+
+#select_sort {
+
+	border: 1px solid #ccc;
+
+}
+
+.main-heading.new > h1 {
+
+	font-size: 18px;
+
+}
+
+.copyright-columns .container {
+
+	max-width: 1000px;
+
+	margin: 6px auto;
+
+}
+
+.copyright-columns .copyright {
+
+	font-size: 12px;
+
+	color: #fff;
+
+	line-height: 39px;
+
+	float: left;
+
+	font-family: "OpenSans-Regular";
+
+}
+
+.copyright-columns .centrr {
+
+	float: left;
+
+	margin-left: 71px;
+
+}
+
+.copyright-columns .centrr ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+.copyright-columns .centrr ul li {
+
+	float: left;
+
+	color: #fff;
+
+	font-size: 12px;
+
+	line-height: 39px;
+
+	font-family: "OpenSans-Regular";
+
+	margin-right: 10px;
+
+}
+
+.copyright-columns .centrr ul li a {
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+.copyright-columns .centrr ul li a:hover {
+
+	color: #fff;
+
+}
+
+.copyright-columns .payments {
+
+	float: right;
+
+	font-size: 12px;
+
+	color: #fff;
+
+	line-height: 39px;
+
+	font-family: "OpenSans-Regular";
+
+}
+
+.step1 {
+
+	line-height: 14px;
+
+	margin-top: -5px;
+
+	padding-left: 36px;
+
+}
+
+.step2 {
+
+	left: -5px;
+
+	margin-top: -5px;
+
+	padding-left: 0;
+
+	position: relative;
+
+	text-align: center;
+
+}
+
+.step3 {
+
+	left: -10px;
+
+	margin-top: -5px;
+
+	padding-left: 0;
+
+	position: relative;
+
+}
+
+.step4 {
+
+	padding-left: 0px;
+
+	margin-top: -5px;
+
+	position: relative;
+
+	left: -27px;
+
+}
+
+.heading_line span {
+
+	background: none repeat scroll 0 0 #efefef;
+
+	color: #363636;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px;
+
+	font-weight: normal;
+
+	letter-spacing: 0px !important;
+
+	padding: 7px 30px;
+
+}
+
+.home_logo_icon {
+
+	margin: auto;
+
+	color: #fff;
+
+	padding: 35px 0 60px 0 !important;
+
+	width: 1075px;
+
+}
+
+.show_hide {
+
+	cursor: pointer;
+
+	margin-left: 62px;
+
+	padding: 0;
+
+	text-align: center;
+
+	width: 1000px;
+
+}
+
+.show_up {
+
+	cursor: pointer;
+
+	margin-left: 62px;
+
+	padding: 0;
+
+	text-align: center;
+
+	width: 1000px;
+
+}
+
+.slidingDiv {
+
+	display: none;
+
+}
+
+.client-feedback {
+
+	display: none;
+
+}
+
+ .client-feedback:a:hover + div {
+
+ display: block;
+
+}
+
+/*user testimonials*/
+
+
+
+#Usertestimonials {
+
+	background:rgba(0, 0, 0, 0) url("../images/bg_coupon.jpg") repeat scroll center top;
+
+	width: 100%;/*min-height: 530px;*/
+
+}
+
+#Usertestimonials .mid_penel {
+
+	width: 1000px;
+
+	margin: 0px auto;
+
+}
+
+#Usertestimonials .mid_penel h1 {
+
+	 /*color: #262626;
+
+    font-family: "OpenSans-Semibold";
+
+    font-size: 22px;
+
+    line-height: 60px;
+
+    padding: 20px 0 10px;
+
+    text-align: center;*/  border-bottom: 3px solid #0d8abe;
+
+    color: #2e2e2e;
+
+    display: table;
+
+    font-family: "OpenSans-Semibold";
+
+    font-size: 22px;
+
+    line-height: 35px;
+
+    margin:0 auto 25px;
+
+    padding: 25px 0 6px;
+
+    text-align: center;
+
+    /*text-shadow: 0 1px 1px #02812c;*/
+
+}
+
+#Usertestimonials .mid_penel figure {
+
+	float: left;
+
+	width: 33%;
+
+}
+
+.user-img {
+
+	background-color: #fff;
+
+	border: 1px solid #0fae44;
+
+	background-size: cover;
+
+	border-radius: 50%;
+
+	float: left;
+
+	display: inline-block;
+
+	height: 80px;
+
+	overflow: hidden;
+
+	margin: -10px 0 10px;
+
+	width: 80px;
+
+}
+
+.usercomment {
+
+	background: none repeat scroll 0 0 #fff;
+
+	border: 1px solid #d7d7d7;
+
+	color: #666;
+
+	float: left;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 12px;
+
+	width: 100%;
+
+	padding: 5px;
+
+}
+
+#Usertestimonials .mid_penel figure .usercomment span {
+
+	background: url("../../images/images/usersLoveArrow.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+
+	display: inline-block;
+
+	height: 22px;
+
+	left: -20px;
+
+	position: absolute;
+
+	top: -1px;
+
+	width: 20px;
+
+	z-index: 1;
+
+}
+
+/* user testimonials*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer trusted by user*/
+
+#trusted_choice {
+
+	background: #016b97;
+
+	height: 530px;
+
+	width: 100%;
+
+	height: auto;
+
+	padding:10px 0 15px;
+
+}
+
+#trusted_choice h1 {
+
+	color: #fff;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 48px;
+
+	padding: 15px 0;
+
+	text-align: center;
+
+}
+
+#trusted_choice .trusted_choice_mid {
+
+	width: 1000px;
+
+	margin:25px auto;
+
+}
+
+#trusted_choice .trusted_choice_mid figure {
+
+	float: left;
+
+	margin-bottom: 25px;
+
+	margin-right: 40px;
+
+	width: 21%;
+
+}
+
+#trusted_choice .trusted_choice_mid figure img {
+
+	display: block;
+
+	margin: auto auto 12px;
+
+	text-align: center; opacity:0.25;
+
+	width: 64px;
+
+}
+
+#trusted_choice .trusted_choice_mid figure h2 {
+
+	font-family: "OpenSans-Regular";
+
+	line-height: 20px;
+
+	font-size: 14px;
+
+	text-align: center;
+
+	color: #fff;
+
+	font-weight: normal;
+
+}
+
+#trusted_choice .trusted_choice_mid figure p {
+
+	color: #fff;
+
+	font-size: 13px;
+
+	font-family: "OpenSans-Regular";
+
+	line-height: 19px;
+
+	text-align: center;
+
+}
+
+/*footer trusted by user ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*video panel new*/
+
+
+
+
+
+#video-panel-section {
+
+	background: #fff;
+
+	color: #2e2e2e;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 13px;
+
+	line-height: 20px;
+
+	margin: 0 auto;
+
+	width: 100%;
+
+}
+
+#video-panel-section h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 35px;
+
+	margin: 0 auto 15px;
+
+	padding: 65px 0 6px;
+
+	text-align: center;
+
+}
+
+#video-panel-section .vdo-mid {
+
+	background: none repeat scroll 0 0 #fff;
+
+	margin: 0 auto;
+
+	padding: 35px 0 85px;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+#video-panel-section .vdo-mid h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 32px;
+
+	margin: 0 auto 40px;
+
+	padding: 0px 0 6px;
+
+	text-align: center;
+
+}
+
+.homelogo h1 {
+
+	border-bottom: 3px solid #0d8abe;
+
+	color: #2e2e2e;
+
+	display: table;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 22px;
+
+	line-height: 32px;
+
+	margin: 0 auto 10px;
+
+	padding: 0 0 6px;
+
+	text-align: center;
+
+}
+
+#video-panel-section .vdo-mid .section-video {
+
+	width: 1000px;
+
+	margin: 0px auto;
+
+	padding: 10px 0 0 0;
+
+}
+
+#video-panel-section .vdo-mid .section-video figure { /*width:309px; height:142px;*/
+
+	background-color: #fff;
+
+	border: 1px solid #dfdfdf;
+
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+
+	float: left;
+
+	width: 310px;
+
+	margin-right: 32px;
+
+}
+
+#video-panel-section .vdo-mid .section-video figure:nth-child(3) {
+
+	margin-right: 0px !important;
+
+}
+
+#video-panel-section .vdo-mid .section-video figure .img-area {
+
+width: float:left;
+
+	position: relative;
+
+}
+
+#video-panel-section .vdo-mid .section-video figure .img-area .trans-bg {
+
+	position: absolute;
+
+	left: 0px;
+
+	background-color: rgba(0,0,0,0.50);
+
+	top: 0px;
+
+	width: 100%;
+
+	height: 100%;
+
+	background-image: url("../../images/images/video-view.png");
+
+	height: 190px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+#video-panel-section .vdo-mid .section-video figure .video-content {
+
+	color: #212121;
+
+	font-size: 13px;
+
+	padding: 0 6px 7px 12px;
+
+	text-align: left;
+
+}
+
+/*video panel new ends here*/
+
+
+
+
+
+.tab-wrap {
+
+	width: 100%;
+
+	/*padding-bottom: 50px;*/ padding-bottom: 15px;
+
+}
+
+.tabrow {
+
+	font-size: 13px;
+
+	height: 140px;
+
+	line-height: 46px;
+
+	list-style: outside none none;
+
+	margin: 20px 0;
+
+	padding: 0;
+
+	position: relative;
+
+	text-align: left;
+
+}
+
+.tabrow li {
+
+	/*width: 228px;*/ padding: 0 64px;
+
+	float: left;
+
+	font-family: "OpenSans-Regular";
+
+	text-align: center;
+
+	font-size: 14px;
+
+}
+
+.tabrow li img {
+
+	background-size: cover;
+
+	border-radius: 50%;
+
+	clear: both;
+
+	display: block;
+
+	height:90px; border:4px solid #eaeaea;
+
+	margin: auto;
+
+	overflow: hidden; box-shadow:0 1px 3px 0 #dcdcdc, 0 -1px 3px 0 #dcdcdc;
+
+	width: 90px;
+
+}
+
+
+
+.tabrow li img:hover{ opacity:0.85;}
+
+
+
+
+
+.tabrow a {
+
+	color: #262626;
+
+	
+
+	text-decoration: none;
+
+}
+
+.tabrow li.active {
+
+	color: #333;
+
+	z-index: 2;
+
+	border-bottom-color: #EDECE8;
+
+}
+
+.tabrow:before {
+
+}
+
+.tabrow li:before, .tabrow li:after {
+
+}
+
+.tabrow li:before {
+
+}
+
+.tabrow li:after {
+
+}
+
+.tabrow li.active:before {
+
+	box-shadow: 2px 2px 0 #EDECE8;
+
+}
+
+.tabrow li:nth-child(1) {
+
+	margin-left: 25px;
+
+}
+
+.tabrow li:nth-child(2) {
+
+	margin-left: 10px;
+
+}
+
+.tabrow li:nth-child(4) {
+
+	margin-right: 0px;
+
+}
+
+.tabrow li.active:after {
+
+	box-shadow: -2px 2px 0 #EDECE8;
+
+}
+
+#tab_tags, #tab_recent, #tab_tools, #tab_popular, #tab_new {
+
+	display: none;
+
+	height: 110px;
+
+	overflow: hidden;
+
+	line-height: 21px !important;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 14px !important;
+
+	/*text-shadow: 0 1px 1px #02812c;*/
+
+	text-align: center; color:#262626;
+
+}
+
+#tab_recent li {
+
+	border-bottom: 1px dashed #CDC9C7;
+
+}
+
+#tab_tools a {
+
+	border-bottom: 1px dashed #DDD;
+
+	background: #F9FDA2;
+
+	color: #222;
+
+}
+
+.tab-content {
+
+	height:110px;
+
+	/*margin-bottom: 65px;*/
+
+	overflow: hidden;
+
+}
+
+.tab-content p {
+
+	line-height: 30px;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px;
+
+	color: #fff;
+
+	text-align: center;
+
+}
+
+/*top usp display*/
+
+
+
+#USP_panel {
+
+	width: 100%;
+
+	/*height: 276px;*/
+
+	padding:60px 0 26px;
+
+	background: url("../../images/images/usp-bg-usp.png") no-repeat center 54px #ffffff;
+
+}
+
+#USP_panel .midsectionsp-stp {
+
+	width: 1000px;
+
+	margin: 15px 0px;
+
+	/*height: 255px;*/ height:220px;
+
+	margin: 0px auto;
+
+	background: url("../../images/images/USP-iconed.png") no-repeat center 75px;
+
+}
+
+#USP_panel .midsectionsp-stp h1 {
+
+	color: #2b2b2b;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 24px;
+
+	font-weight: normal;
+
+	line-height:48px;
+
+	margin-bottom:0px;
+
+	text-align: center;
+
+}
+
+#USP_panel .midsectionsp-stp article {
+
+	background: none repeat scroll 0 0 #fff;
+
+	float: left;
+
+	height: 128px;
+
+	margin-right: 10px;
+
+	margin-top: 65px;
+
+	position: relative;
+
+	width: 24%;
+
+}
+
+#USP_panel .shaddiw {
+
+	background: url("../../images/images/shaddow_usp.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	height: 30px;
+
+	margin: 0 auto;
+
+	position: relative;
+
+	top: 32px;
+
+	width: 1000px;
+
+	opacity: 0.50;
+
+}
+
+#USP_panel .midsectionsp-stp article .circle_area {
+
+	left: 28%;
+
+	position: absolute;
+
+	top: -68px;
+
+}
+
+#USP_panel .midsectionsp-stp article h2 {
+
+	color: #000;
+
+	font-size: 16px;
+
+	line-height: 23px;
+
+	font-family: "OpenSans-Regular";
+
+	margin-top: 45px;
+
+	font-weight: normal;
+
+	text-align: center;
+
+}
+
+#USP_panel .midsectionsp-stp article p {
+
+	font-family: "OpenSans-Regular";
+
+	font-weight: normal;
+
+	text-align: center;
+
+	padding: 5px 10px;
+
+	line-height: 18px;
+
+	text-align: center;
+
+	font-size: 13px;
+
+	color: #323232;
+
+}
+
+/*#USP_panel .midsectionsp-stp article:nth-child(4){ margin-right:0px !important;}*/
+
+
+
+/*top usp display ends here*/
+
+/*healthians plus popup section*/
+
+
+
+#HPlusBox {
+
+	position: fixed;
+
+	top: 0px;
+
+	left: 0px;
+
+	display: none;
+
+	z-index: 998;
+
+	height: 100%;
+
+	width: 100%;
+
+	background-image: url(../../images/backgroundBox.png);
+
+}
+
+#HPlusBox .borderWindow {
+
+	font-size: 12px;
+
+	border-radius: 3px;
+
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+
+	color: #ff0000;
+
+	text-align: left;
+
+	background-image: url(../../images/backgroundBox.png);
+
+	padding: 5px;
+
+}
+
+#HPlusBox .container {
+
+	position: relative;
+
+}
+
+#HPlusBox #closeButton {
+
+	position: absolute;
+
+	top: -15px;
+
+	right: -15px;
+
+}
+
+.colheadingL {
+
+	background-color: #383837;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	padding: 2px;
+
+	text-align: left;
+
+}
+
+.styleOne {/*background: linear-gradient(to bottom, #f6f6f6 0%, #eeeeee 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+	background: #fff;
+
+	height: auto;
+
+	margin-bottom: 1px;
+
+	margin-top: 2px;
+
+	padding: 3px 10px 5px;
+
+	width: auto;
+
+}
+
+.styleOne h3 {
+
+	border-bottom: 1px solid #e7e7e7;
+
+	color: #262626;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 18px;
+
+	font-weight: normal;
+
+	line-height: 32px;
+
+	margin: 0 0 8px;
+
+	padding: 0 3px;
+
+}
+
+.styleOne h3 span {
+
+	background: linear-gradient(to bottom, #ffaf4b 0%, #ff920a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: 1px solid #ffb75c;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	float: left;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	height: 25px;
+
+	line-height: 25px;
+
+	margin-right: 10px;
+
+	padding: 0 8px;
+
+}
+
+.styleOne label {
+
+	font-family: "Roboto-Regular_2";
+
+	float: left;
+
+	color: #313131;
+
+	line-height: 28px;
+
+	font-size: 13px;
+
+	margin-right: 14px;
+
+	padding-left: 3px;
+
+}
+
+.styleOne span {
+
+	color: #5d5d5d;
+
+	font-size: 12px;
+
+	line-height: 30px;
+
+	margin-left: 2px;
+
+	margin-right: 10px;
+
+}
+
+.styleOne td {
+
+	padding: 5px 0 7px;
+
+	font-family: "Roboto-Regular_2";
+
+}
+
+.styleOne input[type="text"] {
+
+	background-color: #fff;
+
+	background-image: none;
+
+	border: 1px solid #7e7e7e;
+
+	/*border: 1px solid #ccc;*/
+
+	border-radius: 4px;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+	color: #555;
+
+	display: block;
+
+	font-size: 14px;
+
+	height: 26px;
+
+	float: left;
+
+	padding: 0px 8px !important;
+
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
+
+.styleOne input:focus {
+
+	border-color: #66afe9;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+
+	outline: 0 none;
+
+}
+
+.styleOne select {
+
+	width: 198px;
+
+	color: #555;
+
+	border: 1px solid #ccc;
+
+	border-radius: 3px;
+
+	padding: 5px 0px;
+
+	margin: 0px;
+
+}
+
+.styleTwo {
+
+	width: auto; /*border-bottom:1px solid #c3c3c3;*//*background: linear-gradient(to bottom, #f6f6f6 0%, #eeeeee 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+	background: #fff;
+
+	height: auto;
+
+	margin-bottom: 1px;
+
+	padding: 7px 10px 10px 10px;
+
+}
+
+.styleTwo h3 {
+
+	border-bottom: 1px solid #e7e7e7;
+
+	color: #262626;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	text-transform: capitalize;
+
+	font-weight: normal;
+
+	line-height: 32px;
+
+	margin: 0 0 12px;
+
+	padding: 0 3px;
+
+}
+
+.styleTwo h3 span {
+
+	background: linear-gradient(to bottom, #ffaf4b 0%, #ff920a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: 1px solid #ffb75c;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	float: left;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	height: 25px;
+
+	line-height: 25px;
+
+	margin-right: 10px;
+
+	padding: 0 8px;
+
+}
+
+.styleTwo label {
+
+	font-family: "Roboto-Regular_2";
+
+	float: left;
+
+	color: #313131;
+
+	line-height: 24px;
+
+	font-size: 13px;
+
+	margin-right: 14px;
+
+	padding-left: 3px;
+
+}
+
+.styleTwo span {
+
+	color: #5d5d5d;
+
+	line-height: 28px;
+
+	font-size: 12px;
+
+}
+
+.styleTwo td {
+
+	padding: 0px 0 0px 0;
+
+	padding-left: 3px;
+
+	color: #5d5d5d;
+
+	font-family: "Roboto-Regular_2";
+
+	line-height: 18px;
+
+	font-size: 13px;
+
+}
+
+.styleTwo input[type="text"] {
+
+	background-color: #fff;
+
+	background-image: none;
+
+	border: 1px solid #ccc;
+
+	border-radius: 4px;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+	color: #555;
+
+	display: block;
+
+	font-size: 14px;
+
+	height: 26px;
+
+	float: left;
+
+	padding: 4px 8px;
+
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
+
+.styleTwo input:focus {
+
+	border-color: #66afe9;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+
+	outline: 0 none;
+
+}
+
+.styleTwo select {
+
+	width: 198px;
+
+	color: #555;  /*border: 1px solid #ccc;*/
+
+	border: 1px solid #0d8abe;
+
+	border-radius: 3px;
+
+	padding: 5px 0px;
+
+	margin: 0px;
+
+}
+
+#testdiv_3 {
+
+	border: 1px solid #ccc;
+
+	display: block;
+
+	float: left;
+
+	padding: 14px 0 0px 10px;
+
+	overflow: scroll;
+
+	height: 85px;
+
+}
+
+#testdiv_3 select {
+
+	width: 130px !important;
+
+	border: 1px solid #ccc;
+
+	border-radius: 3px;
+
+	padding: 5px 0px;
+
+	margin: 0px;
+
+}
+
+.sub_cat_opt {
+
+	float: left;
+
+	margin-right: 15px;
+
+	margin-bottom: 5px;
+
+}
+
+.styleThree {
+
+	width: auto; /*border-bottom:1px solid #c3c3c3;*/
+
+	height: auto; /*background: linear-gradient(to bottom, #f6f6f6 0%, #eeeeee 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+	background: #fff;
+
+	padding: 3px 10px;
+
+}
+
+.styleThree h3 {
+
+	border-bottom: 1px solid #e7e7e7;
+
+	color: #313131;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	font-weight: normal;
+
+	line-height: 32px;
+
+	margin: 0 0 8px;
+
+	padding: 0 3px;
+
+}
+
+.styleThree h3 span {
+
+	background: linear-gradient(to bottom, #ffaf4b 0%, #ff920a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: 1px solid #ffb75c;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	float: left;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	height: 25px;
+
+	line-height: 25px;
+
+	margin-right: 10px;
+
+	padding: 0 8px;
+
+}
+
+.styleThree label {
+
+	font-family: "Roboto-Regular_2";
+
+	float: left;
+
+	color: #5d5d5d;
+
+	line-height: 28px;
+
+	font-size: 13px;
+
+	margin-right: 14px;
+
+	padding-left: 3px;
+
+}
+
+.styleThree span {
+
+	font-family: "Roboto-Regular_2";
+
+	margin-bottom: 10px;
+
+	color: #5d5d5d;
+
+	line-height: 24px;
+
+	font-size: 12px;
+
+}
+
+.styleThree td {
+
+	padding: 0px 0 0px 0;
+
+	padding-left: 3px;
+
+	font-family: "Roboto-Regular_2";
+
+	color: #5d5d5d;
+
+	line-height: 29px;
+
+	font-size: 13px;
+
+}
+
+.styleThree input[type="text"] {
+
+	background-color: #fff;
+
+	background-image: none;
+
+	border: 1px solid #ccc;
+
+	border-radius: 4px;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+	color: #555;
+
+	display: block;
+
+	font-size: 14px;
+
+	height: 26px;
+
+	float: left;
+
+	padding: 4px 8px;
+
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
+
+.styleThree input:focus {
+
+	border-color: #66afe9;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+
+	outline: 0 none;
+
+}
+
+.styleThree select {
+
+	width: 198px;
+
+	color: #555;
+
+	border: 1px solid #ccc;
+
+	border-radius: 3px;
+
+	padding: 5px 0px;
+
+	margin: 0px;
+
+}
+
+.styleFour {
+
+	width: auto; /*border-bottom:1px solid #c3c3c3;*/  /*background: linear-gradient(to bottom, #f6f6f6 0%, #eeeeee 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+	background: #fff;
+
+	padding: 3px 10px;
+
+	margin-bottom: 6px;
+
+}
+
+.styleFour h3 {
+
+	border-bottom: 1px solid #e7e7e7;
+
+	color: #313131;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	font-weight: normal;
+
+	line-height: 32px;
+
+	margin: 0 0 12px;
+
+	padding: 0 3px;
+
+}
+
+.styleFour h3 span {
+
+	background: linear-gradient(to bottom, #ffaf4b 0%, #ff920a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	border: 1px solid #ffb75c;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	float: left;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 16px;
+
+	height: 25px;
+
+	line-height: 25px;
+
+	margin-right: 10px;
+
+	padding: 0 8px;
+
+}
+
+.styleFour label {
+
+	font-family: "Roboto-Regular_2";
+
+	float: left;
+
+	color: #5d5d5d;
+
+	line-height: 24px;
+
+	font-size: 13px;
+
+	margin-right: 14px;
+
+	padding-left: 3px;
+
+}
+
+.styleFour span {
+
+	color: #5d5d5d;
+
+	line-height: 28px;
+
+	font-size: 12px;
+
+}
+
+.styleFour td {
+
+	font-family: "Roboto-Regular_2";
+
+	padding: 0px 0 0px 0;
+
+	padding-left: 3px;
+
+	color: #5d5d5d;
+
+	line-height: 29px;
+
+	font-size: 13px;
+
+}
+
+.styleFour input[type="text"] {
+
+	background-color: #fff;
+
+	background-image: none;
+
+	border: 1px solid #ccc;
+
+	border-radius: 4px;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+	color: #555;
+
+	display: block;
+
+	font-size: 14px;
+
+	height: 26px;
+
+	float: left;
+
+	padding: 4px 8px;
+
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
+
+.styleFour input:focus {
+
+	border-color: #66afe9;
+
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+
+	outline: 0 none;
+
+}
+
+.styleFour select {
+
+	width: 198px;
+
+	border: 1px solid #ccc;
+
+	border-radius: 3px;
+
+	padding: 5px 0px;
+
+	margin: 0px;
+
+}
+
+.w200 {
+
+	width: 184px !important;
+
+}
+
+.w50 {
+
+	width: 80px !important;
+
+}
+
+/*healthians plus popup section ends here*/
+
+
+
+
+
+#HPlusBox_result {
+
+	position: fixed;
+
+	top: 0px;
+
+	left: 0px;
+
+	display: none;
+
+	z-index: 998;
+
+	height: 100%;
+
+	width: 100%;
+
+	background-image: url(../../images/backgroundBox.png);
+
+}
+
+#HPlusBox_result .borderWindow {
+
+	font-size: 12px;
+
+	border-radius: 3px;
+
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+
+	color: #ff0000;
+
+	text-align: left;
+
+	background-image: url(../../images/backgroundBox.png);
+
+	padding: 5px;
+
+}
+
+#HPlusBox_result .container {
+
+	position: relative;
+
+}
+
+#HPlusBox_result #closeButton {
+
+	position: absolute;
+
+	top: -15px;
+
+	right: -15px;
+
+}
+
+#HPlusBox_result .content {
+
+	background-color: #fff;
+
+	min-height: 595px;
+
+	width: 740px;
+
+}
+
+#hq_submit1 {
+
+	margin-bottom: 15px;
+
+}
+
+#HPlusBox_result .content h1 {
+
+	background: url("httpss://www.healthians.com/assets/images/top-heading_g1.jpg") repeat-x center top;
+
+	font-family: "Roboto-Regular_2";
+
+	font-size: 20px;
+
+	font-weight: normal;
+
+	line-height: 40px;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	width: 100%;
+
+	text-align: center;
+
+	color: #FFF;
+
+}
+
+.error {
+
+	/*clear: both;
+
+	font-size: 11px;
+
+	line-height: 17px;
+
+	position: relative;
+
+	top: 9px;*/     clear: both;
+
+	float: right;
+
+	font-size: 11px;
+
+	line-height: 17px;
+
+	margin-top: 9px;
+
+	position: absolute;
+
+}
+
+/*select stylize*/
+
+.dropdown_sct {
+
+}
+
+.dropdown_sct select {
+
+	/*Removes border*/
+
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+
+	-moz-appearance: none; /* Removes Default Firefox style*/
+
+	background: url('../../images/dropdown_arrow.png') no-repeat;  /*Adds background-image*/
+
+	background-position: 176px 9px;  /*Position of the background-image*/
+
+	/* width: 100px;*/ /*Width of select dropdown to give space for arrow image*/
+
+	height: 28px;/*fix for mac input height*/
+
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+
+	text-overflow: "";  /*Removes default arrow from firefox*/
+
+	cursor: pointer;
+
+	/*My custom style for fonts*/
+
+
+
+	color: #555;
+
+	border: 1px solid #7e7e7e;
+
+}
+
+select option {
+
+	text-align: LEFT;
+
+}
+
+/*select stylize*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ta_btn {
+
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+
+	background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%) repeat scroll 0 0 #007dc1;
+
+	background-color: #007dc1;
+
+	border-radius: 3px;
+
+	display: inline-block;
+
+	margin-bottom: 15px;
+
+	margin-left: 14px;
+
+	font-family: "Roboto-Regular_2";
+
+	cursor: pointer;
+
+	color: #ffffff;
+
+	font-size: 20px;
+
+	padding: 5px 15px;
+
+	text-decoration: none;
+
+	text-shadow: 0px 1px 0px #3d768a;
+
+	border: none;
+
+}
+
+.ta_btn:hover {
+
+	background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%) repeat scroll 0 0 #007dc1;
+
+	background-color: #007dc1;
+
+}
+
+.ta_btn:active {
+
+	position: relative;
+
+	top: 1px;
+
+}
+
+.data_result {
+
+	color: #262626;
+
+	float: left;
+
+	border-right: 1px dotted #ddd;
+
+	line-height: 21px;
+
+	width: 488px;
+
+}
+
+.data_result .summery {
+
+	width: 97%;
+
+}
+
+.data_result .summery p {
+
+	color: #666;
+
+	font-size: 14px !important;
+
+	font-family: Arial, Helvetica, sans-serif !important;
+
+	line-height: 20px !important;
+
+	width: auto !important;
+
+}
+
+.green-btn-click {
+
+	background-color: #91bd09;
+
+	border-radius: 3px;
+
+	display: inline-block;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+	font-size: 19px;
+
+	font-weight: bold;
+
+	margin-top: 5px;
+
+	padding: 8px 5px;
+
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+
+	transition: background-color 0.15s ease-in-out 0s;
+
+}
+
+.green-btn-click img {
+
+	margin-left: 10px;
+
+}
+
+.green-btn-click a {
+
+	text-decoration: none;
+
+	color: #fff;
+
+	padding: 5px 15px;
+
+}
+
+.green-btn-click a:hover {
+
+	text-decoration: none;
+
+	color: #fff;
+
+}
+
+.data_chart {
+
+	float: right;
+
+	width: 228px;
+
+	background: #fff;
+
+}
+
+.data_chart h3 {
+
+	font-size: 16px;
+
+	text-align: left;
+
+	line-height: 40px;
+
+	color: #666;
+
+}
+
+.p_R {
+
+	color: #207abf !important;
+
+	display: block;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 20px !important;
+
+	font-weight: normal;
+
+	padding: 2px !important;
+
+	text-transform: capitalize;
+
+}
+
+.registerforcamp {
+
+	background: linear-gradient(to bottom, #1da308 0px, #1e8b0c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	box-shadow: 0 2px 0 #1e8b0c;
+
+	outline: none;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	border: none;
+
+	border-radius: 3px;
+
+	padding: 9px 30px;
+
+	display: block;
+
+	font-family: "opensans-regular";
+
+	cursor: pointer;
+
+	font-size: 22px;
+
+	margin-top: 10px;
+
+	margin-bottom: 10px;
+
+	MARGIN-LEFT: 29%;
+
+}
+
+.hq-value {
+
+	padding: 10px 0px;
+
+	border-top: 1px solid #eaeaea;
+
+}
+
+.regist-code {
+
+	background: #f3f3f3;
+
+}
+
+.hq-value h1 {
+
+	background: none repeat scroll 0 0 #fbfbfb;
+
+	color: #087eaf;
+
+	font-family: "OpenSans-Semibold";
+
+	font-size: 20px;
+
+	font-weight: normal;
+
+	padding-bottom: 10px;
+
+	padding-left: 6px;
+
+	padding-top: 10px;
+
+}
+
+.hq-value h1.cta-btn {
+
+	background: linear-gradient(to bottom, #f47b00 0px, #f47b00 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+	box-shadow: 0 2px 0 #f47b00;
+
+	outline: none;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	border: none;
+
+	border-radius: 3px;
+
+	padding: 8px 24px;
+
+	display: inline-block;
+
+	font-family: "opensans-regular";
+
+	cursor: pointer;
+
+	font-size: 22px;
+
+	margin-top: 10px;
+
+	margin-bottom: 7px;
+
+	MARGIN-LEFT: 188px;
+
+}
+
+.hq-value p {
+
+	color: #262626;
+
+	font-family: "opensans-regular";
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	line-height: 25px;
+
+	padding-bottom: 16px;
+
+	padding-left: 6px;
+
+	text-align: center;
+
+	text-indent: 247px;
+
+}
+
+#back-to-top {
+
+	position: fixed;
+
+	bottom: 80px;
+
+	right: 40px;
+
+}
+
+#back-to-top a {
+
+	text-align: center;
+
+	text-decoration: none;
+
+	color: #d1d1d1;
+
+	display: block;
+
+	width: 80px;
+
+	-moz-transition: color 1s;
+
+	-webkit-transition: color 1s;
+
+	-o-transition: color 1s;
+
+}
+
+#back-to-top a:hover {
+
+	color: #979797;
+
+}
+
+#back-to-top a span {
+
+	background: #d1d1d1;
+
+	border-radius: 3px;
+
+	display: block;
+
+	height: 40px;
+
+	width: 40px;
+
+	background: #d1d1d1 url(../../../../healthians.com/assets/front/images/arrow-up.png) no-repeat center center;
+
+	margin-bottom: 5px;
+
+	-moz-transition: background 1s;
+
+	-webkit-transition: background 1s;
+
+	-o-transition: background 1s;
+
+}
+
+#back-to-top a:hover span {
+
+	background: #006995 url(../../../../healthians.com/assets/front/images/arrow-up.png) no-repeat center center;
+
+}
+
+/*banner slider starts here*/
+
+/* Basic jQuery Slider essential styles */
+
+
+
+ul.bjqs {
+
+	position: relative;
+
+	list-style: none;
+
+	padding: 0;
+
+	margin: 0;
+
+	overflow: hidden;
+
+	display: none;
+
+}
+
+li.bjqs-slide {
+
+	position: absolute;
+
+	display: none;
+
+}
+
+ul.bjqs-controls {
+
+	list-style: none;
+
+	margin: 0;
+
+	padding: 0;
+
+	z-index: 9999;
+
+}
+
+ul.bjqs-controls.v-centered li a {
+
+	position: absolute;
+
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+
+	right: 0;
+
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+
+	left: 0;
+
+}
+
+ol.bjqs-markers {
+
+	list-style: none;
+
+	padding: 0;
+
+	margin: 0;
+
+	width: 100%;
+
+}
+
+ol.bjqs-markers.h-centered {
+
+	text-align: center;
+
+	display: none;
+
+}
+
+ol.bjqs-markers li {
+
+	display: inline;
+
+}
+
+ol.bjqs-markers li a {
+
+	display: inline-block;
+
+}
+
+p.bjqs-caption {
+
+	display: block;
+
+	width: 96%;
+
+	margin: 0;
+
+	padding: 2%;
+
+	position: absolute;
+
+	bottom: 0;
+
+}
+
+#banner-fade, #banner-slide {
+
+	margin: 0 auto;
+
+}
+
+ul.bjqs-controls.v-centered li a {
+
+	display: block;
+
+	padding: 10px;
+
+	display: none;
+
+	background: #fff;
+
+	color: #000;
+
+	text-decoration: none;
+
+}
+
+ul.bjqs-controls.v-centered li a:hover {
+
+	background: #000;
+
+	color: #fff;
+
+}
+
+ol.bjqs-markers li a {
+
+	padding: 5px 10px;
+
+	background: #000;
+
+	color: #fff;
+
+	margin: 5px;
+
+	text-decoration: none;
+
+}
+
+ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
+
+	background: #999;
+
+}
+
+p.bjqs-caption {
+
+	background: rgba(255,255,255,0.5);
+
+}
+
+/*banner slider ends here*/
+
+
+
+.s_box_top {
+
+	border: none;
+
+	background: #fff;
+
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.1) inset;
+
+	color: #727272;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.4;
+
+	float: left;
+
+	padding: 6px 30px 6px 10px;
+
+	-webkit-border-top-left-radius: 3px;
+
+	-webkit-border-bottom-left-radius: 3px;
+
+	-moz-border-radius-topleft: 3px;
+
+	-moz-border-radius-bottomleft: 3px;
+
+	border-top-left-radius: 3px;
+
+	margin: 3px 0 0;
+
+	border-bottom-left-radius: 3px;
+
+}
+
+.search-btn-top {
+
+	background: #00c7e9;
+
+	-webkit-border-top-right-radius: 3px;
+
+	-webkit-border-bottom-right-radius: 3px;
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	-moz-border-radius-topright: 3px;
+
+	color: #fff;
+
+	font-family: "OpenSans-Semibold";
+
+	border: none;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	padding: 0px 3px 0px 3px;
+
+	-moz-border-radius-bottomright: 3px;
+
+	line-height: 27px;
+
+	border-top-right-radius: 3px;
+
+	border-bottom-right-radius: 3px;
+
+	float: left;
+
+	margin: 3px 0px 0px 0px;
+
+}
+
+.search-btn-top:hover {
+
+	background: #0a6a92;
+
+}
+
+.camp_result_panel {
+
+	padding: 10px 15px;
+
+	width: 96.7%;
+
+}
+
+.camp_result_panel h1 {
+
+	font-family: "opensans-regular";
+
+	font-size: 20px;
+
+	color: #2b2b2b;
+
+	line-height: 44px;
+
+}
+
+.camp_result_panel p {
+
+	font-family: "opensans-regular";
+
+	font-size: 15px;
+
+	color: #1e1e1e;
+
+	line-height: 22px;
+
+}
+
+.camp_result_panel p strong {
+
+	font-family: "OpenSans-Bold";
+
+	color: #087eaf;
+
+}
+
+.camp_result_panel h2 {
+
+	color: #087eaf;
+
+	font-family: "OpenSans-Bold";
+
+	font-size: 24px;
+
+	text-align: center;
+
+	line-height: 34px;
+
+	margin-bottom: 10px;
+
+}
+
+.camp_result_panel ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+.camp_result_panel ul li {
+
+	font-size: 15px;
+
+	color: #1e1e1e;
+
+	padding-left: 14px;
+
+	background: url("httpss://www.healthians.com/assets/images/arrow-dots.png") no-repeat scroll 1px center rgba(0, 0, 0, 0);
+
+	line-height: 28px;
+
+	font-family: "opensans-regular";
+
+}
+
+.camp_result_panel ol {
+
+	margin: 0px;
+
+	margin-left: 20px;
+
+	padding: 0px;
+
+	list-style: decimal;
+
+}
+
+.camp_result_panel ol li {
+
+	color: #1e1e1e;
+
+	font-family: "opensans-regular";
+
+	font-size: 15px;
+
+	line-height: 28px;
+
+}
+
+.camp_result_panel ol li strong {
+
+	font-family: "OpenSans-Bold";
+
+	color: #087eaf;
+
+}
+
+@font-face {
+
+	font-family: 'open_sansbold';
+
+	src: url('../../listimage/fonts/opensans-bold-webfont.eot');
+
+	src: url('../../listimage/fonts/opensans-bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../listimage/fonts/opensans-bold-webfont.woff2') format('woff2'), url('../../listimage/fonts/opensans-bold-webfont.woff') format('woff'), url('../../listimage/fonts/opensans-bold-webfont.ttf') format('truetype');
+
+	font-weight: normal;
+
+	font-style: normal;
+
+}
+
+@font-face {
+
+	font-family: 'open_sanslight';
+
+	src: url('../../listimage/fonts/opensans-light_2-webfont.eot');
+
+	src: url('../../listimage/fonts/opensans-light_2-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../listimage/fonts/opensans-light_2-webfont.woff2') format('woff2'), url('../../listimage/fonts/opensans-light_2-webfont.woff') format('woff'), url('../../listimage/fonts/opensans-light_2-webfont.ttf') format('truetype');
+
+	font-weight: normal;
+
+	font-style: normal;
+
+}
+
+@font-face {
+
+	font-family: 'open_sansregular';
+
+	src: url('../../listimage/fonts/opensans-regular-webfont.eot');
+
+	src: url('../../listimage/fonts/opensans-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../listimage/fonts/opensans-regular-webfont.woff2') format('woff2'), url('../../listimage/fonts/opensans-regular-webfont.woff') format('woff'), url('../../listimage/fonts/opensans-regular-webfont.ttf') format('truetype'), url('../../listimage/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+
+	font-weight: normal;
+
+	font-style: normal;
+
+}
+
+#price-listing {
+
+	margin-bottom: 25px;
+
+	width: 774px;
+
+	height: auto;
+
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.deal-display {
+
+	background: #FFF;
+
+	box-radius: 3px;
+
+	box-shadow: 0 0px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.test-row {
+
+	height: auto;
+
+	padding: 10px;
+
+}
+
+.left-description {
+
+	float: left;
+
+	width: 440px;
+
+}
+
+.left-description h2 {
+
+	color: #006a97;
+
+	font-family:opensans-regular;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+
+
+.left-description h2 a{text-decoration:none; color:#006a97;}
+
+.left-description h2 a:hover{ text-decoration:none; color:#02638d;}
+
+
+
+.left-description p {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	font-size: 12px;
+
+	color: #5f5f5f;
+
+}
+
+.merchant-logo {
+
+	float: right;
+
+}
+
+.deal_view {
+
+	width: auto;
+
+	background: #fff;
+
+	padding: 0;
+
+}
+
+.deal_view .tabular-view {
+
+	width: 100%;
+
+}
+
+.deal_view .tabular-view tr {
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+.deal_view .tabular-view th {
+
+	background: #f7f7f7;
+
+	padding: 7px 0px 7px 12px;
+
+	text-align: center;
+
+	font-size: 13px;
+
+	font-family:opensans-regular;
+
+	color: #515050;
+
+}
+
+.deal_view .tabular-view td {
+
+	padding: 12px 2px;
+
+	font-size: 12px;
+
+}
+
+.deal_view .tabular-view span.parametr-watch {
+
+	color: #e33535;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	font-family:opensans-regular;
+
+}
+
+.deal_view .tabular-view ul {
+
+	margin: 3px 0px !important;
+
+	padding: 0px!important;
+
+	list-style: none!important;
+
+}
+
+.deal_view .tabular-view ul li {
+
+	font-size: 13px!important;
+
+	margin-left: 10px!important;
+
+	color: #6f6f6f!important;
+
+	font-family: 'open_sansregular'!important;
+
+	background: url(../images/checked.html) no-repeat left 5px!important;
+
+	padding-left: 20px!important;
+
+	line-height: 22px!important;
+
+}
+
+.deal_view .tabular-view p {
+
+	font-size: 13px !important;
+
+	margin-left: 0px !important;
+
+	color: #5d5d5d !important;
+
+	font-family:opensans-regular !important; /*background:url(../images/checked.png) no-repeat left 5px !important;*/
+
+	padding-left: 6px !important;
+
+	line-height: 22px !important;
+
+}
+
+.deal_view .tabular-view p img {
+
+	float: left;
+
+	margin-right: 2px;
+
+	margin-top: 3px;
+
+}
+
+.staricon {
+
+	float: left;/*margin-left:8px;*//* padding:1px 10px;*/
+
+	font-family:opensans-regular;
+
+	width: 100%;
+
+	color: #303030;
+
+	font-size: 13px;
+
+}
+
+.staricon span {
+
+	float: left;
+
+	margin-right: 3px;
+
+}
+
+.price_slashed {
+
+	float: left;
+
+	color: #303030;
+
+	font-family:opensans-regular;
+
+	padding: 1px 20px;
+
+	text-align: center;
+
+	width: 165px;
+
+	font-size: 13px;
+
+}
+
+.price_slashed span.slash {
+
+	text-decoration: line-through;
+
+}
+
+.price_saved {
+
+	color: #028e90;
+
+	float: left;
+
+	font-size: 13px;
+
+	padding: 1px 2px;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+.price_saved span.slash {
+
+	text-decoration: none;
+
+}
+
+.final-price {
+
+	padding: 1px 1px 1px 22px;
+
+	font-size: 24px;
+
+	color: #1a1a1a;
+
+	font-family:opensans-regular !important;
+
+}
+
+.final-price img {
+
+	float: left;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.facility-decs {
+
+	background: #f8f8f8;
+
+	padding: 5px 0px;
+
+	box-shadow: 0 0px 3px rgba(0, 0, 0, 0.17);
+
+}
+
+.facility-decs .left-panel {
+
+	float: left;
+
+	width: 350px;
+
+	padding-left: 12px;
+
+}
+
+.facility-decs .left-panel .locationarea {
+
+	line-height: 30px;
+
+	background: url(../../listimage/location_icon.png) no-repeat left center;
+
+	float: left;
+
+	margin-right: 20px;
+
+	font-size: 12px;
+
+	color: #5d5d5d;
+
+	padding-left: 21px;
+
+	font-family: opensans-regular;
+
+}
+
+.facility-decs .left-panel .dealbought {
+
+	line-height: 30px;
+
+	background: url(../../listimage/bookeddeal.png) no-repeat left center;
+
+	float: left;
+
+	font-size: 12px;
+
+	color: #5d5d5d;
+
+	padding-left: 21px;
+
+	font-family: opensans-regular;
+
+}
+
+.facility-decs .right-panel {
+
+	float: right;
+
+	margin-right: 10px;
+
+}
+
+.facility-decs .right-panel .deal-book {
+
+	float: left;
+
+	margin-right: 10px;
+
+	font-family: opensans-regular;
+
+}
+
+.facility-decs .right-panel .deal-book a {
+
+	text-decoration: none;
+
+	padding: 4px 8px;
+
+	display: block;
+
+	background: #515151;
+
+	border-radius: 3px;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+.facility-decs .right-panel .deal-book a:hover {
+
+	background: #232323;
+
+}
+
+.facility-decs .right-panel .viewdetail {
+
+	font-family: opensans-regular;
+
+	float: left;
+
+}
+
+.facility-decs .right-panel .viewdetail a {
+
+	border-radius: 3px;
+
+	text-decoration: none;
+
+	padding: 4px 8px;
+
+	background: url(../../listimage/bg-orange.png) repeat-x center top;
+
+	display: block;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+.facility-decs .right-panel .viewdetail a:hover {
+
+	background: url(../../listimage/deal-listing-newrever.png) repeat-x left center;
+
+}
+
+.deal-project section {
+
+	height: auto !important;
+
+}
+
+/* new deal detail page*/
+
+
+
+
+
+#healthians-deal-display {
+
+	width: 980px;
+
+	margin: 15px auto 20px auto;
+
+	border-radius: 3px;
+
+	border: 1px solid #dddddd;
+
+}
+
+#healthians-deal-display .leftpanel {
+
+	float: left;
+
+	width: 755px;
+
+	padding-bottom: 0px;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel {
+
+	float: left;
+
+	width: 755px;
+
+	border-bottom: 1px solid #dddddd;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel h2 {
+
+	color: #006a97;
+
+	font-size: 20px;
+
+	float: left;
+
+	padding-left: 10px;
+
+	padding-top: 10px;
+
+	font-family: "open_sansbold";
+
+	margin: 0;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel span {
+
+	float: left;
+
+	font-size: 13px;
+
+	color: #e8290c;
+
+	font-family: 'open_sansregular';
+
+	padding: 15px 10px 0px;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel p {
+
+	color: #5f5f5f;
+
+	padding-left: 10px;
+
+	width: 540px;
+
+	font-family: 'open_sansregular';
+
+	padding-top: 3px;
+
+	margin: 0px;
+
+	font-size: 12px;
+
+	padding-bottom: 9px;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel .right-brand {
+
+	float: right;
+
+	margin-right: 10px;
+
+}
+
+#healthians-deal-display .leftpanel .topleftpanel .brand-trust {
+
+	float: right;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar {
+
+	float: left;
+
+	width: 755px;
+
+	height: 123px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first {
+
+	float: left;
+
+	width: 116px;
+
+	margin-left: 14px;
+
+	margin-top: 10px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .lab-logo {
+
+	float: left;
+
+	border: 1px solid #eaeaea;
+
+	margin-bottom: 10px;
+
+	padding: 1px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .lab-logo img {
+
+float: left;
+
+    height:50px;
+
+    width: 120px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .rating {
+
+	float: left;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .rating span {
+
+	float: left;
+
+	margin-right: 2px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .rating a {
+
+	text-decoration: none;
+
+	color: #0f719a;
+
+	padding-top: 4px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_first .rating a:hover {
+
+	color: #ff7600;
+
+	text-decoration: underline;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_2 {
+
+	float: left;
+
+	width: 472px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_2 ul {
+
+	margin: 8px 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_2 ul li {
+
+	color: #5d5d5d !important;
+
+	font-family: "open_sansregular" !important;
+
+	font-size: 13px !important;
+
+	line-height: 20px !important;
+
+	float: left;
+
+	margin-left: 0 !important;
+
+	padding-left: 34px;
+
+	padding-top: 3px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_2 ul li img {
+
+	float: left;
+
+	margin-top: 7px;
+
+	margin-right: 8px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_3 {
+
+	float: left;
+
+	margin-left: 22px;
+
+	margin-top: 14px;
+
+	width: 131px;
+
+}
+
+#healthians-deal-display .leftpanel .merchant-infobar .raww_3 .bought {
+
+	background: rgba(0, 0, 0, 0) url("images/bought-deal.jpg") no-repeat scroll 32px center;
+
+	color: #0f719a;
+
+	display: block;
+
+	float: left;
+
+	font-size: 12px;
+
+	padding-left: 58px;
+
+	text-align: center;
+
+}
+
+#healthians-deal-display .rightcart-area {
+
+	float: right;
+
+	background: #fafafa;
+
+	width: 203px;
+
+	padding: 10px;
+
+	border-left: 1px solid #ccc;
+
+	height: 253px;
+
+}
+
+#healthians-deal-display .rightcart-area .availbility {
+
+	width: auto;
+
+	margin: 0 auto;
+
+	text-align: left;
+
+	line-height: 25px;
+
+}
+
+#healthians-deal-display .rightcart-area .availbility select {
+
+	padding: 5px 0;
+
+	border: 1px solid #ccc;
+
+	margin: 0 auto;
+
+	width: 100%;
+
+}
+
+#healthians-deal-display .rightcart-area .price-display {
+
+	width: auto;
+
+	margin: 15px 0px 12px 0px;
+
+}
+
+#healthians-deal-display .rightcart-area .price-display .wrongprice {
+
+	float: left;
+
+	margin-bottom: 5px;
+
+	color: #da1515;
+
+	font-size: 13px;
+
+	text-decoration: none;
+
+	text-transform: none;
+
+	width: 100%;
+
+}
+
+#healthians-deal-display .uspdisplay {
+
+	width: 755px;
+
+	height: auto;
+
+	float: left;
+
+	border-top: 1px solid #eaeaea;
+
+}
+
+#healthians-deal-display .main-price {
+
+	float: LEFT;
+
+	background: url(images/rupee-icon.jpg) no-repeat left center;
+
+	width: 50%;
+
+	clear: both;
+
+	margin-top: 14px;
+
+	padding-left: 26px;
+
+	font-size: 30px;
+
+	font-family: "open_sansregular";
+
+	color: #1a1a1a;
+
+}
+
+#healthians-deal-display .addto-wish {
+
+	float: left;
+
+	background: url(images/wishlist.jpg) no-repeat left center;
+
+	margin-top: 5px;
+
+}
+
+#healthians-deal-display .addto-wish a {
+
+	text-decoration: none;
+
+	color: #3c3c3c;
+
+	text-decoration: underline;
+
+	padding-left: 20px;
+
+}
+
+#healthians-deal-display .addto-wish a:hover {
+
+	text-decoration: none;
+
+	color: #ff7600;
+
+}
+
+#healthians-deal-display .saving {
+
+	padding: 10PX;
+
+	color: #FFF;
+
+	margin-right: 0px;
+
+	float: right;
+
+	background: url(images/saving-pat.png) no-repeat left center;
+
+	font-size: 12px;
+
+}
+
+#healthians-deal-display .payment {
+
+	margin: 20px 0px;
+
+}
+
+#healthians-deal-display .payment .payat {
+
+	color: #01759e;
+
+	font-size: 14px;
+
+	font-family: "open_sansbold";
+
+	margin-bottom: 5px;
+
+	display: block;
+
+}
+
+#healthians-deal-display .payment .payat a {
+
+	text-decoration: none;
+
+	color: #01759e;
+
+}
+
+#healthians-deal-display .payment .payat a:hover {
+
+	color: #ff7600;
+
+}
+
+.btncart {
+
+	background: #ff6d00 linear-gradient(to bottom, #ff6d00, #f98025) repeat scroll 0 0;
+
+	border-radius: 4px;
+
+	color: #ffffff;
+
+	display: block;
+
+	font-family: open_sansbold;
+
+	font-size: 20px;
+
+	padding: 8px 20px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+}
+
+.btncart:hover {
+
+	background: #f98025;
+
+	background-image: -webkit-linear-gradient(top, #f98025, #ff6d00);
+
+	background-image: -moz-linear-gradient(top, #f98025, #ff6d00);
+
+	background-image: -ms-linear-gradient(top, #f98025, #ff6d00);
+
+	background-image: -o-linear-gradient(top, #f98025, #ff6d00);
+
+	background-image: linear-gradient(to bottom, #f98025, #ff6d00);
+
+	text-decoration: none;
+
+}
+
+#healthians-deal-display .uspdisplay-btm {
+
+	width: 755px;
+
+	height: auto;
+
+	float: left;
+
+	border-top: 1px solid #eaeaea;
+
+}
+
+#healthians-deal-display .uspdisplay-btm .elementfloat {
+
+	color: #7b7b7b;
+
+	float: left;
+
+	font-family: 'open_sansregular';
+
+	background: url(images/shaddow.png) no-repeat right center;
+
+	padding: 14px 24px 11px 8px;
+
+}
+
+#healthians-deal-display .uspdisplay-btm .elementfloat img {
+
+	float: left;
+
+	margin-right: 7px;
+
+}
+
+.media-news {
+
+	border-bottom: 1px dotted #bbbcbe;
+
+	padding: 10px 0 12px;
+
+}
+
+.colL {
+
+	border: 1px solid #efefef;
+
+	float: left;
+
+	margin-right: 20px;
+
+	min-height: 94px;
+
+	text-align: center;
+
+	width: 14%;
+
+}
+
+.colL img {
+
+	height: auto;
+
+	float: left;
+
+	width: 100%;
+
+}
+
+.colR {
+
+	color: #666;
+
+	float: left;
+
+	font: 13px/18px Arial, Helvetica, sans-serif;
+
+	width: 83%;
+
+}
+
+.title {
+
+	color: #333333;
+
+	color: #333333;
+
+	font-family: OpenSans-Regular;
+
+	font-size: 15px;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+	text-decoration: none;
+
+}
+
+.date {
+
+	color: #999999;
+
+	font: 10px Arial;
+
+	line-height: 20px;
+
+}
+
+.MT7 {
+
+	margin-top: 7px;
+
+	text-align: justify;
+
+	font-family: opensans-regular;
+
+	line-height: 18px;
+
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.investor-news {
+
+	border-bottom: 1px dotted #bbbcbe;
+
+	padding: 10px 0 12px;
+
+}
+
+.colLg {
+
+	border: 1px solid #efefef;
+
+	float: left;
+
+	margin-right: 20px;
+
+	min-height: 129px;
+
+	text-align: center;
+
+	width: 28%;
+
+}
+
+.colRg {
+
+	color: #666;
+
+	float: left;
+
+	font: 13px/18px Arial, Helvetica, sans-serif;
+
+	width: 69%;
+
+}
+
+.invs {
+
+	line-height: 20px;
+
+	font-family: opensans-regular;
+
+	text-align: justify;
+
+}
+
+.read-investor {
+
+	border-radius: 3px;
+
+	float: right;
+
+	font-size: 13px;
+
+	font-family: opensans-regular;
+
+}
+
+.read-investor a {
+
+	text-decoration: none;
+
+	padding: 4px 6px !important;
+
+	color: #0d8abe;
+
+	border: 1px solid #0d8abe;
+
+}
+
+.read-investor a:hover {
+
+	border: 1px solid #515151;
+
+	color: #666;
+
+}
+
+
+
+
+
+
+
+/*signup process */
+
+
+
+label.valid {
+
+  width: 24px;
+
+  height: 24px;
+
+  background: url(../images/valid.html) center center no-repeat;  no-repeat right center;
+
+  display: inline-block;
+
+  text-indent: -9999px;
+
+}
+
+
+
+
+
+label.error {
+
+  font-weight: normal;
+
+  color:#990000;
+
+  padding: 2px 2px;
+
+  margin-top: 2px;
+
+}
+
+
+
+.errormessage {
+
+  border:1px solid red;
+
+}    
+
+
+
+#registrationfrm label.error {
+
+  margin-left: 2px;
+
+  width: auto;
+
+  display:inline;
+
+  color:#990000;
+
+  font-weight:normal;
+
+}
+
+.textlabel {
+
+  color: #666666;
+
+  font-family:Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: normal;
+
+  padding-right: 10px;
+
+}
+
+
+
+.chosen-container .chosen-results {
+
+  max-height:150px !important;
+
+}
+
+
+
+.ErrorControl
+
+{
+
+  background-color: #FBE3E4 !important;
+
+  border: solid 1px Red !important;
+
+}
+
+
+
+.successcontrol
+
+{
+
+ /* background-color: #EAFAF1 !important;
+
+  border: solid 1px #296629 !important;*/ background:#fff;
+
+} 
+
+#healthianssignup-account{ width:auto; width:1000px; margin:0 auto 30px auto;}
+
+#healthianssignup-account h2{ background: #fff none repeat scroll 0 0;   color: #363535;  display: inline-block;   font-family: "OpenSans-Bold";
+
+  font-size: 18px;   left: 30%; margin:10px 0px;   padding: 1px 10px;   position: relative;   text-align: center;   z-index: 1;}
+
+  #healthianssignup-account hr{ border:none; border-top:1px solid #ccc; margin:0px; padding:0px; z-index:0; position:relative; top:-21px; }
+
+  
+
+  #healthianssignup-account .full_panel{ width:auto; width:100%; background:#efefef; border-radius:3px; overflow:hidden; margin:10px 0 0 0;}
+
+  #healthianssignup-account .full_panel .top-panel{ background:url(../images/bg-stripeblue-area.png) repeat-x center top; min-height:90px;}
+
+  #healthianssignup-account .full_panel .top-panel ul{ margin:0px; padding:0px; list-style:none;}
+
+  #healthianssignup-account .full_panel .top-panel ul li{ width:28%; margin-right:10px; float:left; margin:19px 25px; 
+
+  background:url(../images/stripe-left.png) no-repeat right center; }
+
+  #healthianssignup-account .full_panel .top-panel ul li .step{ font-family: "OpenSans-Bold"; background:#ff7b16; border-radius:50%; font-size:16px; color:#fff; width:35px; height:35px; padding:3px; text-align:center; line-height:35px;}
+
+  
+
+  
+
+  #healthianssignup-account .full_panel .top-panel ul li .step-inactive{ font-family: "opensans-regular"; background:#0e5e7f; border-radius:50%; font-size:16px; color:#fff; width:35px; height:35px; padding:3px; text-align:center; line-height:35px;}
+
+  
+
+  
+
+  #healthianssignup-account .full_panel .top-panel ul li .step-complete{ font-family: "opensans-regular"; background:#08bb8f; border-radius:50%; font-size:16px; color:#fff; width:35px; height:35px; padding:3px; text-align:center; line-height:35px;}
+
+  
+
+  
+
+  #healthianssignup-account .full_panel .top-panel ul li .text{font-family: "opensans-regular"; font-size:18px; color:#fff; }
+
+  #healthianssignup-account .full_panel .top-panel ul li .paratext{ font-size:12px; color:#fff;}
+
+  .MainRegistration{ height:200px; background:#000;}
+
+  .control-group{ border-bottom:1px solid #ccc; padding-bottom:15px; padding-top:15px; font-family: "opensans-regular"; font-size:14px;}
+
+  .control-group b{ float:left; width:165px; line-height:30px;}
+
+  .largetextfield{background-color: #fff;
+
+    border: 1px solid #ccc;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; width:390px; padding:8px 4px; border-radius:4px;}
+
+    
+
+    
+
+    .textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{border-color: rgba(82, 168, 236, 0.8);
+
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+
+      outline: 0 none;}
+
+      
+
+      .term-cnt{ font-size:11px; color:#636363; margin:0px; padding-top:15px; margin-top:15px; margin-left:170px; padding:0px; line-height:21px; }
+
+      .mtnone{ margin-top:5px !important;}
+
+      .chkbx{ margin-right: 10px;
+
+    position: relative;
+
+    top: 2px;}
+
+      .h_pls_form{ width:auto;}
+
+      .h_health-dtl{ width:auto;}
+
+      .social-link{ 
+
+        width: 100%;} 
+
+        
+
+        .formregisters{ width:58%; margin-left:30px; float:left; margin-right:20px;}
+
+        .inactive_hq{
+
+          display: none;
+
+
+
+        }
+
+        .loading {
+
+         background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+
+         min-height: 706px;
+
+         opacity: 0.3;
+
+         position: absolute;
+
+         width:1000px;
+
+         z-index: 99999;
+
+       }
+
+
+
+/*signup process ends here*/
+
+
+
+
+
+.breadcrumb-und{ margin-bottom:5px;height:32px; font-family: "opensans-regular"; width:100%; }
+
+
+
+.payment_frm{ width:640PX; padding:20PX; background:#cacaca; margin:0 auto; top:170PX; position:relative; box-shadow:0 5px #ccc; border-radius:5px;	}
+
+.payment_frm h3{ text-align:center; font-size:18px; margin-bottom:9px;}
+
+.payment_frm .input-bx{background:#fff;
+
+    border: medium none;
+
+    border-radius: 3px;
+
+    box-shadow: none; text-align:center;
+
+ float:left;
+
+    font-size: 16px;
+
+    font-weight: 300; color:#262626;
+
+    height:35px;
+
+   
+
+  width:100%; }
+
+
+
+.payment_frm .submit-bx{ background-color: #3778b0;
+
+    border-radius: 3px; border:none; padding:10px 10px;
+
+    color: #ffffff;
+
+    display: inline-block; cursor:pointer;
+
+    font-size: 18px; line-height:24px; float:right; width:100%; margin:10px 0px;
+
+    font-weight: 600;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

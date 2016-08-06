@@ -1,0 +1,108 @@
+
+------------------LAB_TESTS----------------------
+
+insert into LAB_TESTS values (1,1,2,550);
+insert into LAB_TESTS values (2,1,6,540);
+insert into LAB_TESTS values (3,1,11,980);
+insert into LAB_TESTS values (4,1,23,470);
+insert into LAB_TESTS values (5,1,32,770);
+insert into LAB_TESTS values (6,1,33,740);
+insert into LAB_TESTS values (7,1,34,700);
+insert into LAB_TESTS values (8,2,1,500);
+insert into LAB_TESTS values (9,2,3,350);
+insert into LAB_TESTS values (10,2,4,1000);
+insert into LAB_TESTS values (11,2,17,1200);
+insert into LAB_TESTS values (12,2,29,1250);
+insert into LAB_TESTS values (13,3,5,400);
+insert into LAB_TESTS values (14,3,9,450);
+insert into LAB_TESTS values (15,3,13,700);
+insert into LAB_TESTS values (16,3,15,300);
+insert into LAB_TESTS values (17,3,16,200);
+insert into LAB_TESTS values (18,3,19,2100);
+insert into LAB_TESTS values (19,3,22,1600);
+insert into LAB_TESTS values (20,4,25,1000);
+insert into LAB_TESTS values (21,4,7,1500);
+insert into LAB_TESTS values (22,4,26,1400);
+insert into LAB_TESTS values (23,4,28,1300);
+insert into LAB_TESTS values (24,4,23,700);
+insert into LAB_TESTS values (25,4,22,600);
+insert into LAB_TESTS values (26,5,6,500);
+insert into LAB_TESTS values (27,5,10,1000);
+insert into LAB_TESTS values (28,5,14,1500);
+insert into LAB_TESTS values (29,5,18,600);
+insert into LAB_TESTS values (30,5,22,1100);
+insert into LAB_TESTS values (31,5,26,1600);
+insert into LAB_TESTS values (32,5,30,550);
+insert into LAB_TESTS values (33,5,31,1050);
+insert into LAB_TESTS values (34,6,5,400);
+insert into LAB_TESTS values (35,6,9,800);
+insert into LAB_TESTS values (36,6,13,1200);
+insert into LAB_TESTS values (37,6,17,450);
+insert into LAB_TESTS values (38,6,21,850);
+insert into LAB_TESTS values (39,6,25,1250);
+insert into LAB_TESTS values (40,6,29,425);
+insert into LAB_TESTS values (41,6,33,875);
+insert into LAB_TESTS values (42,6,15,800);
+insert into LAB_TESTS values (43,7,6,600);
+insert into LAB_TESTS values (44,7,10,1200);
+insert into LAB_TESTS values (45,7,14,1800);
+insert into LAB_TESTS values (46,7,18,2400);
+insert into LAB_TESTS values (47,7,22,700);
+insert into LAB_TESTS values (48,7,26,1300);
+insert into LAB_TESTS values (49,7,30,1900);
+insert into LAB_TESTS values (50,7,34,2500);
+insert into LAB_TESTS values (51,8,7,450);
+insert into LAB_TESTS values (52,8,11,900);
+insert into LAB_TESTS values (53,8,15,1350);
+insert into LAB_TESTS values (54,8,19,475);
+insert into LAB_TESTS values (55,8,23,925);
+insert into LAB_TESTS values (56,8,27,1375);
+insert into LAB_TESTS values (57,9,1,300);
+insert into LAB_TESTS values (58,9,3,600);
+insert into LAB_TESTS values (59,9,5,900);
+insert into LAB_TESTS values (60,9,7,1200);
+insert into LAB_TESTS values (61,9,9,1500);
+insert into LAB_TESTS values (62,9,11,350);
+insert into LAB_TESTS values (63,9,13,650);
+insert into LAB_TESTS values (64,9,12,850);
+insert into LAB_TESTS values (65,9,15,950);
+insert into LAB_TESTS values (66,9,16,850);
+insert into LAB_TESTS values (67,9,17,1250);
+insert into LAB_TESTS values (68,9,19,1550);
+insert into LAB_TESTS values (69,9,21,400);
+insert into LAB_TESTS values (70,9,23,700);
+insert into LAB_TESTS values (71,9,25,1000);
+insert into LAB_TESTS values (72,9,33,1100);
+insert into LAB_TESTS values (73,9,27,1300);
+insert into LAB_TESTS values (74,9,29,1600);
+insert into LAB_TESTS values (75,9,31,450);
+insert into LAB_TESTS values (76,9,33,750);
+insert into LAB_TESTS values (77,10,2,250);
+insert into LAB_TESTS values (78,10,4,500);
+insert into LAB_TESTS values (79,10,6,750);
+insert into LAB_TESTS values (80,10,8,1000);
+insert into LAB_TESTS values (81,10,10,1250);
+insert into LAB_TESTS values (82,10,12,1500);
+insert into LAB_TESTS values (83,10,14,275);
+insert into LAB_TESTS values (84,10,16,525);
+insert into LAB_TESTS values (85,10,18,775);
+insert into LAB_TESTS values (86,10,20,1025);
+insert into LAB_TESTS values (87,10,22,1275);
+insert into LAB_TESTS values (88,10,24,1525);
+insert into LAB_TESTS values (89,10,26,300);
+insert into LAB_TESTS values (90,10,28,550);
+insert into LAB_TESTS values (91,10,30,800);
+insert into LAB_TESTS values (92,10,32,1050);
+insert into LAB_TESTS values (93,10,34,1300);
+
+//insert into LAB_TESTS values (,,,);
+
+
+
+
+
+
+
+
+
+

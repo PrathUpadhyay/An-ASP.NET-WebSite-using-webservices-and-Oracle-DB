@@ -1,0 +1,188 @@
+/* Circular Content Carousel Style */
+body{
+	background:white;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px;
+}
+.ca-container{
+	position:relative;
+	margin:25px 10% 20px 10%;
+	width:1000px;
+	height:300px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:250px;
+	height:140px;
+	text-align:center;
+}
+
+
+
+.ca-item-main{
+	
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	overflow:auto;
+	word-wrap:break-word;
+	-moz-box-shadow:2px 2px 2px cadetblue,-2px -2px 2px cadetblue;
+	-webkit-box-shadow:2px 2px 2px cadetblue,-2px -2px 2px cadetblue;
+	box-shadow:2px 2px 2px cadetblue,-2px -2px 2px cadetblue;
+	 background-color: #ffffff;
+  border: 1px solid transparent;
+  color: cadetblue;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.ca-item.ca-item-1 .ca-item-main a{
+	color:cadetblue;
+}
+
+.ca-item-main:hover{
+  background-color: cadetblue;
+  color: #ffffff;
+  border-color: /*#009ac9;*/#ffffff;
+  -moz-box-shadow:0px 0px 0px white;
+	-webkit-box-shadow:0px 0px 0px white;
+	box-shadow:0px 0px 0px white;
+}
+
+.ca-item-main:hover a{
+	color:#fff;
+}
+
+.ca-item.ca-item-1 .ca-item-main:hover a{
+	color:#fff;
+}
+
+.ca-icon{
+	width:233px;
+	height:189px;
+	position:relative;
+	margin:0 auto;
+	background:transparent url(../images/animal1.png) no-repeat center center;
+}
+.ca-item-2 .ca-icon{
+	background-image:url(../images/animal2.png);
+}
+.ca-item-3 .ca-icon{
+	background-image:url(../images/animal3.png);
+}
+.ca-item-4 .ca-icon{
+	background-image:url(../images/animal4.png);
+}
+.ca-item-5 .ca-icon{
+	background-image:url(../images/animal5.png);
+}
+.ca-item-6 .ca-icon{
+	background-image:url(../images/animal6.png);
+}
+.ca-item-7 .ca-icon{
+	background-image:url(../images/animal7.png);
+}
+.ca-item-8 .ca-icon{
+	background-image:url(../images/animal8.png);
+}
+.ca-item-main a{
+	font-size: 16px;
+    min-height: 44px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+    font-family: Calibri;
+}
+
+.ca-nav span{
+	width:15px;
+	height:32px;
+	background:transparent url(../img/arrows.png) no-repeat top left;
+	position:absolute;
+	top:75px;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-40px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+
+
+.popularbutton{
+	
+    font-family: Calibri;
+    text-align: center;
+    border-radius: 9px;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 18px;
+	 background-color: #404040;
+  border: 1px solid transparent;
+  color: #ffffff;
+  -webkit-border-radius: 90px;
+  border-radius: 90px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.popularbutton:hover{
+	 background-color: #ffffff;
+  color: #404040;
+  border-color: /*#009ac9;*/#ffffff;
+}
+
+ 
+         
+       #button-holder{
+            background-color:#f1f1f1;
+            border-top:thin solid #e5e5e5;
+            box-shadow:1px 1px 1px 1px #e5e5e5;
+            float:left;
+            height:34px;
+            margin:11px 0 0 0;
+            text-align:center;
+            width:30px;
+        }
+         
+   /*send email button*/  
+   .email{
+	   margin-left:30%	;
+margin: 0px;
+border: 1px solid #02A6D8;
+font-family: "Open Sans";
+font-size: 17px;
+color: #FFF;
+background-color: #02A6D8;
+text-align: center;
+vertical-align: middle;
+box-sizing: border-box;
+line-height: 28px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+   }

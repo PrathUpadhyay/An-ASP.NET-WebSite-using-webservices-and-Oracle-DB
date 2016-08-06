@@ -1,0 +1,199 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="head_family.master.cs" Inherits="CheckUp.head_family" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link rel="stylesheet" media="print" href="CSS/printece8.css" />
+    <link rel="stylesheet" media="screen" href="CSS/bootstrap.minece8.css" />
+        <link rel="stylesheet" media="screen" href="CSS/style7afe.css" />
+
+
+
+
+
+
+
+    <style>
+        .header {
+            height: 54px;
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            line-height: 30px;
+        }
+
+            .header.shrink {
+                height: 39px;
+            }
+
+        .abc {
+            margin-left: 24px;
+            font-size: 9px;
+            font-weight: 700;
+            margin-top: 13px;
+        }
+
+        .section-navbar .shrink .nav > li > a {
+            line-height: 0.1;
+        }
+
+        .section-navbar .shrink .nav .abc .contact-button {
+            padding: 5px 20px 0px 20px;
+        }
+
+            .section-navbar .shrink .nav .abc .contact-button:before, .section-navbar .shrink .nav .abc .contact-button:after {
+                height: 15px;
+            }
+
+            .section-navbar .shrink .nav .abc .contact-button:after {
+                top: -11px;
+            }
+
+        .shrink .abc {
+            margin-top: 3px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            font-weight: normal;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .header.shrink h1 {
+            font-size: 24px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .content {
+            height: 2000px;
+            /*just to get the page to scroll*/
+        }
+    </style>
+
+
+
+    <link href="CSS/user.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="everything">
+
+
+            <div class="section section-navbar navbar navbar-fixed-top">
+                <div class="checkup-properties-nav properties-light">
+                    <div class="checkup-properties-container">
+                        <ul class="checkup-properties">
+                            <li class="active">CheckUp</li>
+                        </ul>
+                        <p class="checkup-properties-tagline">The Standard in Pathology Labs</p>
+                    </div>
+                </div>
+                <div class="navbar-inner">
+                    <div class="container h1">
+                        <a class="brand" href="Default.aspx">CheckUp</a>
+
+
+                        <ul class="nav pull-right">
+                            <li>
+                                <div class="abc">
+
+                                    <a href="Webform2.aspx" target="_blank" class="contact-button" id="userlink" runat="server" visible="false">Contact</a>
+                                </div>
+                            </li>
+                              <li class="nav-item"><a><asp:HyperLink ID="lnkdwnload" runat="server" NavigateUrl="~/About/app-debug.apk" Style="margin-top: -5px;">GetApp</asp:HyperLink></a></li>
+                            <%--<li class="nav-item"><a><asp:LinkButton ID="LinkButton1" runat="server" OnClick="download" Style="margin-top: -5px;">GetApp</asp:LinkButton></a></li>--%>
+                           <li> <asp:Image ID="Image1" runat="server" ImageUrl="~/img/android1.png" Height="25px" /></li>
+                            <li class="nav-item"><a href="login.aspx" runat="server" id="log">Login</a></li>
+                            <li class="nav-item"><a>
+                                <asp:LinkButton ID="lout" runat="server" Visible="false" OnClick="log_out" Style="margin-top: -5px;">Logout</asp:LinkButton></a></li>
+                          </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+            <%-- <hr class="footer-hr"/>
+
+        <div class="section">
+            <div style="margin-left:230px;margin-right:auto;">
+                <div class="row">
+                    <div class="row-center">
+                        <div class="row">
+                            <div class="span12 align-center">
+                                <p class="btn-container btn-container-padded">
+                                    <a href="contact.html" class="btn btn-checkup">About us</a>
+                                    <a href="contact.html" class="btn btn-checkup">Contact us</a>
+                                    <a href="contact.html" class="btn btn-checkup">Jobs</a>
+                                    <a href="contact.html" class="btn btn-checkup">Press</a>
+                                    <a href="contact.html" class="btn btn-checkup">FAQs</a>
+                                    <a href="support.html" class="btn btn-checkup">Feedback</a>
+                                </p>
+                                <div style="width: 350px;display:block;margin: 0 auto;">
+								<ul style="margin-top: 10px;">
+									<li style="vertical-align: top;display: inline;">
+                                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/img/facebook29 (3).png" /></li>
+									<li style="vertical-align: top;display: inline;margin-left:15px;">
+                                        <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/img/twitter21.png" /></li>
+									<li style="vertical-align: top;display: inline;margin-left:15px;">
+                                        <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/img/linkedin12.png" /></li>
+									<li style="vertical-align: top;display: inline;margin-left:15px;">
+                                        <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/img/google116.png" /></li>
+								</ul>
+							</div>
+                                <p class="footer-copyright">
+                                    &copy; 2015 CheckUp WePlusYou
+									<br/>
+                                    <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --%>
+        </div>
+    </form>
+</body>
+</html>

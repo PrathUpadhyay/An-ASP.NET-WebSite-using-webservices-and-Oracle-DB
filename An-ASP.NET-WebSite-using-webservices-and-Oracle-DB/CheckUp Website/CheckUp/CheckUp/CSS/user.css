@@ -1,0 +1,71 @@
+﻿*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+        .contact-button {
+            position: relative;
+            -webkit-perspective: 1000px;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translate3d(0,0,0);
+            color: darkblue;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            font-size: 1.2em;
+            border: 2px solid darkblue;
+            border-radius: 4px;
+            padding: 15px 20px 0px 20px;
+            transition: 0.3s ease-in-out;
+        }
+    /*.contact-button span{
+        text-transform: none;
+        position: absolute;
+        color: #EE283E;
+        top: 20px;
+        left: 30px;
+        opacity: 0;
+        transition: all 0s ease 0s;
+    }*/
+            /*.contact-button:hover {
+                transition: 0.3s ease-in-out;
+                border: 2px solid darkblue;
+                border-radius: 50px;
+                background-color: darkblue;
+				color:darkblue;
+            }
+        .contact-button:hover>span {
+            opacity: 1;
+            transition: all 0.25s ease-in-out 0.1s;
+        }*/
+        
+        /*.contact-button:hover:before {
+            transition: 0.3s ease-in-out;
+            background-color: #EE283E;
+        }*/
+    
+    
+    
+    .contact-button:before, .contact-button:after {
+        content: "";
+        position: absolute;
+        top: -14px;
+        left: -12px;
+        width: 132px;
+        height: 25px;
+    }
+    .contact-button:before {
+        border: 2px solid #EE283E;
+        background-color: #F8F8FF;
+        transform: skew(-25deg);
+        transition: 0.3s ease-in-out;
+    }
+    
+    .contact-button:after {
+        content: "Check Your Account";
+        font-size: 0.8em;
+        top: -7px;
+        left: 0px;
+        color: black;
+    }
+    
