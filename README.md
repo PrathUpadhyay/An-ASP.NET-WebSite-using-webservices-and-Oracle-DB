@@ -8,7 +8,7 @@ http://www.codeproject.com/Articles/158042/DALC-NET-A-Generic-Data-Access-Layer-
 
 ## in /Database
 These are the needed SQL commands that can be run directly on console.
-- Tables.txt gives detailed description of all the tables with primaey key and foreign
+- Tables.txt gives detailed description of all the tables with primary key and foreign
 
 - All files with keyword "insert" describe insert queries to the respective tabels (sort of creating dummy database)
 
